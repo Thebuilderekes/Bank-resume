@@ -7,7 +7,7 @@
 
 :root {
   --primary-color: #ffffff;
-  --secondary-color: #4845f1;
+  --secondary-color: rgb(18, 18, 19);
   --font-color: #0000;
 }
 
@@ -24,8 +24,8 @@ body {
 
 /*-----------------------------------------*/
 header {
-  background: #eeaeca;
-  background: radial-gradient(circle, #eeaeca 0%, #e1acce 0%, #bba5dc 0%, #949ee9 100%);
+  background: #c7c0c3;
+  background: radial-gradient(circle, #c7c0c3 0%, #8f888c 0%, #75777e 0%, #5a5a5e 100%);
   width: 100%;
   height: 500px;
   -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 56%, 0 77%);
@@ -42,6 +42,7 @@ header .cv__section--details {
 header .cv__section--details .job__heading {
   color: var(--primary-color);
   font-size: 36px;
+  margin-left: 10px;
 }
 
 header .cv__section--details .main__heading {
@@ -369,8 +370,8 @@ header .cv__section--details p {
 }
 
 footer {
-  background: #eeaeca;
-  background: radial-gradient(circle, #eeaeca 0%, #e1acce 0%, #bba5dc 0%, #949ee9 100%);
+  background: #c7c0c3;
+  background: radial-gradient(circle, #c7c0c3 0%, #8f888c 0%, #75777e 0%, #5a5a5e 100%);
   width: 100%;
   height: 500px;
   display: -webkit-box;
@@ -428,8 +429,8 @@ footer .social-media__list li {
   }
   /*-----------------------------------------*/
   header {
-    background: #eeaeca;
-    background: radial-gradient(circle, #eeaeca 0%, #e1acce 0%, #bba5dc 0%, #949ee9 100%);
+    background: #c7c0c3;
+    background: radial-gradient(circle, #c7c0c3 0%, #8f888c 0%, #75777e 0%, #5a5a5e 100%);
     width: 100%;
     height: 500px;
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
@@ -715,8 +716,8 @@ footer .social-media__list li {
     margin-left: 20px;
   }
   footer {
-    background: #eeaeca;
-    background: radial-gradient(circle, #eeaeca 0%, #e1acce 0%, #bba5dc 0%, #949ee9 100%);
+    background: #c7c0c3;
+    background: radial-gradient(circle, #c7c0c3 0%, #8f888c 0%, #75777e 0%, #5a5a5e 100%);
     width: 100%;
     height: 800px;
     display: -webkit-box;
@@ -770,8 +771,8 @@ footer .social-media__list li {
   }
   /*-----------------------------------------*/
   header {
-    background: #eeaeca;
-    background: radial-gradient(circle, #eeaeca 0%, #e1acce 0%, #bba5dc 0%, #949ee9 100%);
+    background: #c7c0c3;
+    background: radial-gradient(circle, #c7c0c3 0%, #8f888c 0%, #75777e 0%, #5a5a5e 100%);
     width: 100%;
     height: 500px;
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
@@ -1036,8 +1037,8 @@ footer .social-media__list li {
     margin-left: 20px;
   }
   footer {
-    background: #eeaeca;
-    background: radial-gradient(circle, #eeaeca 0%, #e1acce 0%, #bba5dc 0%, #949ee9 100%);
+    background: #c7c0c3;
+    background: radial-gradient(circle, #c7c0c3 0%, #8f888c 0%, #75777e 0%, #5a5a5e 100%);
     width: 100%;
     height: 800px;
     display: -webkit-box;
@@ -1047,7 +1048,7 @@ footer .social-media__list li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 3200px;
+    margin-top: 3400px;
   }
   footer .footer__heading {
     color: var(--primary-color);
@@ -1089,16 +1090,16 @@ footer .social-media__list li {
   }
   /*-----------------------------------------*/
   header {
-    background: #eeaeca;
-    background: radial-gradient(circle, #eeaeca 0%, #e1acce 0%, #bba5dc 0%, #949ee9 100%);
+    background: #c7c0c3;
+    background: radial-gradient(circle, #c7c0c3 0%, #8f888c 0%, #75777e 0%, #5a5a5e 100%);
     width: 100%;
     height: 500px;
-    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
-            clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
+            clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
   }
   header .cv__section--details {
     float: right;
-    margin-left: 150px;
+    margin-left: 30px;
     font-family: "PT Sans Narrow", sans-serif;
     font-size: 30px;
   }
@@ -1108,7 +1109,7 @@ footer .social-media__list li {
   }
   header .cv__section--details .main__heading {
     color: black;
-    font-size: 90px;
+    font-size: 50px;
     font-family: "Playfair Display", serif;
   }
   header .cv__section--details p {
@@ -1119,8 +1120,8 @@ footer .social-media__list li {
   .wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 400px;
-        grid-template-columns: 400px;
+    -ms-grid-columns: 360px;
+        grid-template-columns: 360px;
     -ms-grid-rows: 240px;
         grid-template-rows: 240px;
     grid-gap: 10px;
@@ -1162,7 +1163,7 @@ footer .social-media__list li {
   .wrapper .skillset .skillset__list li {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2px;
     line-height: 34px;
   }
@@ -1170,14 +1171,14 @@ footer .social-media__list li {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
     font-size: 20px;
-    line-height: 34px;
+    line-height: 30px;
     margin-bottom: 80px;
     width: 100%;
   }
   .wrapper .about .about__heading {
     font-family: "Playfair Display", serif;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 46px;
     padding-bottom: 20px;
   }
@@ -1231,7 +1232,7 @@ footer .social-media__list li {
     text-decoration: none;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
     line-height: 34px;
   }
@@ -1252,7 +1253,7 @@ footer .social-media__list li {
   }
   .wrapper .career .career__list .career__paragraph1 {
     font-family: "PT Sans Narrow", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 34px;
   }
   .wrapper .career .career__list .career__paragraph1 .bold {
@@ -1289,7 +1290,7 @@ footer .social-media__list li {
   .wrapper .program .program__analyst--responsibilities li {
     font-family: "PT Sans Narrow", sans-serif;
     line-height: 34px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .wrapper .Sifmis .Sifmis__heading {
     width: 100%;
@@ -1310,7 +1311,7 @@ footer .social-media__list li {
   .wrapper .Sifmis .Sifmis--responsibilities li {
     font-family: "PT Sans Narrow", sans-serif;
     line-height: 34px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .wrapper .schoolTeacher .schoolTeacher__heading {
     line-height: 24px;
@@ -1323,7 +1324,7 @@ footer .social-media__list li {
             justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--secondary-color);
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -1334,7 +1335,7 @@ footer .social-media__list li {
   .wrapper .schoolTeacher .schoolTeacher--responsibilities li {
     font-family: "PT Sans Narrow", sans-serif;
     line-height: 34px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     margin-left: 20px;
   }
@@ -1350,14 +1351,13 @@ footer .social-media__list li {
   .wrapper .projects .projects__list li {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 34px;
     margin-left: 20px;
   }
   footer {
-    background: #eeaeca;
-    background: radial-gradient(circle, #eeaeca 0%, #e1acce 0%, #bba5dc 0%, #949ee9 100%);
-    width: 100%;
+    background: #c7c0c3;
+    background: radial-gradient(circle, #c7c0c3 0%, #8f888c 0%, #75777e 0%, #5a5a5e 100%);
     height: 800px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1366,7 +1366,7 @@ footer .social-media__list li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 3200px;
+    margin-top: 3400px;
   }
   footer .footer__heading {
     color: var(--primary-color);
