@@ -13,16 +13,12 @@
 html {
   width: 100%;
   height: 100%;
-
-
-
 }
 
 body {
   width: 100%;
- height: 100%;
+  height: 100%;
 
- 
   overflow-x: hidden;
 }
 /*-----------------------------------------*/
@@ -41,15 +37,15 @@ header {
     padding-top: 30px;
 
     .job__heading {
-      color:var(--primary-color);
+      color: var(--primary-color);
       font-size: 36px;
-      margin-left: 60p
+      margin-left: 60p;
     }
     font-family: "PT Sans Narrow", sans-serif;
     font-size: 30px;
 
     .main__heading {
-      color: rgb(0, 0, 0);
+      color: #fab0b0;
       font-size: 120px;
       margin-right: 30px;
     }
@@ -57,8 +53,6 @@ header {
     p {
       color: var(--primary-color);
       font-size: 1rem;
-     
-
     }
   }
 }
@@ -66,13 +60,12 @@ header {
 .wrapper {
   display: grid;
   grid-template-columns: 550px 635px;
-  grid-template-rows: 250px  250px   250px   250px   250px  ;
+  grid-template-rows: 250px 250px 250px 250px 250px;
   justify-content: center;
   column-gap: 125px;
   row-gap: 100px;
 
-
-/*----------------------------------------*/
+  /*----------------------------------------*/
   /* skillset section                         */
   /*---------------------------------------- */
   .skillset {
@@ -91,26 +84,22 @@ header {
         font-family: "PT Sans Narrow", sans-serif;
         font-weight: 400;
         font-size: 20px;
-      
+
         line-height: 34px;
         margin-left: 20px;
-
       }
     }
   }
 
-// /*----------------------------------------*/
-//   /* about me section                         */
-//   /*---------------------------------------- */
+  // /*----------------------------------------*/
+  //   /* about me section                         */
+  //   /*---------------------------------------- */
 
   .about {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
-
-
-    
 
     .about__heading {
       font-family: "Playfair Display", serif;
@@ -120,7 +109,7 @@ header {
     }
   }
 
- /*----------------------------------------*/
+  /*----------------------------------------*/
   /* career traits section                  */
   /*---------------------------------------- */
 
@@ -133,7 +122,6 @@ header {
       font-weight: 700;
       line-height: 24px;
       letter-spacing: 2px;
-    
     }
 
     .career__list {
@@ -163,15 +151,14 @@ header {
     }
   }
 
-
-//  /*----------------------------------------*/
-//   /* certification section                         */
-//   /*---------------------------------------- */
+  //  /*----------------------------------------*/
+  //   /* certification section                         */
+  //   /*---------------------------------------- */
 
   .certification {
     width: 350px;
     height: 100%;
-   margin-top: -180px;
+    margin-top: -180px;
 
     .certification__heading {
       font-family: "PT Sans Narrow", sans-serif;
@@ -184,7 +171,6 @@ header {
   }
 
   .certification-list {
-    
     text-decoration: none;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
@@ -192,238 +178,199 @@ header {
     letter-spacing: 1px;
     line-height: 34px;
     margin-left: 20px;
-  
   }
 
   // /*----------------------------------------*/
-//   /* experience section                      */
-//   /*---------------------------------------- */
+  //   /* experience section                      */
+  //   /*---------------------------------------- */
 
-.experience {
- 
-
-
-  .experience__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 46px;
-
-  }
-
-  .experience__heading--frontend {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    color: var(--secondary-color);
-
-    .experience__duration {
-
-      font-family: "PT Sans Narrow", sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      color: var(--secondary-color);
-    }
-  }
-
-  .experience__paragraph {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 20px;
-    line-height: 34px;
-    font-weight: 400;
-  }
-}
-
- 
-
-
-
-
-   /*----------------------------------------*/
-  /*program                           */
-  /*---------------------------------------- */
-
-
-
-      .program__analyst {
-        line-height: 24px;
-        display: flex;
-        justify-content: space-between;
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        color: var(--secondary-color);
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-
-
-      .program__analyst--responsibilities {
-
-       li {
-          font-family: "PT Sans Narrow", sans-serif;
-          line-height:34px ;
-          font-size: 20px;
-          margin-left: 20px;
-        }
-
-      }
-
-       
-
-     .Sifmis__heading {
-        line-height: 24px;
-        display: flex;
-        justify-content: space-between;
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        color: var(--secondary-color);
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-      
-      .Sifmis--responsibilities {
-    li {
-          font-family: "PT Sans Narrow", sans-serif;
-          line-height:34px ;
-          font-size: 20px;
-          margin-left: 20px;
-        }
-
-      }
-    }
-
-    .schoolTeacher {
-
-      .schoolTeacher__heading {
-        line-height: 24px;
-        margin-top: 66px;
-        display: flex;
-        justify-content: space-between;
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        color: var(--secondary-color);
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-.schoolTeacher--responsibilities {
-  line-height:34px ;
-
-  
-li {
-
-  font-family: "PT Sans Narrow", sans-serif;
-  line-height: 34px;
-  font-size: 20px;
-  font-weight: 500;
-  margin-left: 20px;
-
-}
-}
-    }
-
-
-    .intern {
-      
-      .intern__heading {
-        line-height: 24px;
-        margin-top: 66px;
-        display: flex;
-        justify-content: space-between;
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        color: var(--secondary-color);
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-
-.intern--responsibilities{
-
-li {
-
-  font-family: "PT Sans Narrow", sans-serif;
-  line-height:34px ;
-  font-size: 20px;
-  font-weight: 500;
-  margin-left: 20px;
-}
-}
-    }
-
-
-
-    .projects {
-  
-      .projects__heading {
-        font-family: "Playfair Display", serif;
-        font-weight: 900;
-        font-size: 36px;
-        line-height: 46px;
-  
-      }
-  
-      .projects__list {
-        li {
-          font-family: "PT Sans Narrow", sans-serif;
-          font-weight: 400;
-          font-size: 20px;
-          line-height: 34px;
-          margin-left: 20px;
-  
-        }
-      }
-    }
-//    /*----------------------------------------*/
-//   /* PROGRAM-TOURGUIDE SECTION ENDS   */
-//   /*---------------------------------------- */
-
-
- /*----------------------------------------*/
-  /*  education section                     */
-  /*---------------------------------------- */
-
-  .education {
-    line-height: 46px;
-
-    .education__heading {
+  .experience {
+    .experience__heading {
       font-family: "Playfair Display", serif;
       font-weight: 900;
       font-size: 36px;
       line-height: 46px;
-     
     }
 
-    .education__timeline {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .education__paragraph--1 {
+    .experience__heading--frontend {
       font-family: "PT Sans Narrow", sans-serif;
       font-weight: 700;
       font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 1px;
       color: var(--secondary-color);
+
+      .experience__duration {
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--secondary-color);
+      }
     }
 
-    .education__paragraph--2 {
-
+    .experience__paragraph {
       font-family: "PT Sans Narrow", sans-serif;
+      font-size: 20px;
+      line-height: 34px;
       font-weight: 400;
-      font-size: 18px;
-      color: var(--secondary-color);
-      font-weight: 700;
     }
   }
 
+  /*----------------------------------------*/
+  /*program                           */
+  /*---------------------------------------- */
 
+  .program__analyst {
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .program__analyst--responsibilities {
+    li {
+      font-family: "PT Sans Narrow", sans-serif;
+      line-height: 34px;
+      font-size: 20px;
+      margin-left: 20px;
+    }
+  }
+
+  .Sifmis__heading {
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .Sifmis--responsibilities {
+    li {
+      font-family: "PT Sans Narrow", sans-serif;
+      line-height: 34px;
+      font-size: 20px;
+      margin-left: 20px;
+    }
+  }
+}
+
+.schoolTeacher {
+  .schoolTeacher__heading {
+    line-height: 24px;
+    margin-top: 66px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .schoolTeacher--responsibilities {
+    line-height: 34px;
+
+    li {
+      font-family: "PT Sans Narrow", sans-serif;
+      line-height: 34px;
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 20px;
+    }
+  }
+}
+
+.intern {
+  .intern__heading {
+    line-height: 24px;
+    margin-top: 66px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .intern--responsibilities {
+    li {
+      font-family: "PT Sans Narrow", sans-serif;
+      line-height: 34px;
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 20px;
+    }
+  }
+}
+
+.projects {
+  .projects__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .projects__list {
+    li {
+      font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 34px;
+      margin-left: 20px;
+    }
+  }
+}
+//    /*----------------------------------------*/
+//   /* PROGRAM-TOURGUIDE SECTION ENDS   */
+//   /*---------------------------------------- */
+
+/*----------------------------------------*/
+/*  education section                     */
+/*---------------------------------------- */
+
+.education {
+  line-height: 46px;
+
+  .education__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .education__timeline {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .education__paragraph--1 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+  }
+
+  .education__paragraph--2 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--secondary-color);
+    font-weight: 700;
+  }
+}
 
 .timeline {
   text-transform: lowercase;
@@ -440,9 +387,7 @@ footer {
   // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
   display: flex;
   flex-direction: column;
-margin-top: 70px;
-
-
+  margin-top: 70px;
 
   .footer__heading {
     font-family: "Playfair Display", serif;
@@ -450,20 +395,18 @@ margin-top: 70px;
     font-weight: 900;
     line-height: 82px;
     padding-top: 60px;
-    margin:auto;
+    margin: auto;
     color: var(--primary-color);
   }
 
   .phone {
-    
     font-family: "PT Sans Narrow", sans-serif;
     font-size: 36px;
     font-weight: 900;
     line-height: 46px;
     margin-top: 40px;
-    margin:auto;
+    margin: auto;
     color: var(--primary-color);
-    
   }
 
   .social-media__list {
@@ -481,290 +424,256 @@ margin-top: 70px;
 //   /*   FOOTER SECTION ENDS                   */
 //   /*---------------------------------------- */
 
-
-
-
-
-
-
-
-
-
-
-
-
 //   /*----------------------------------------*/
 //   /*  MEDIA QUERIES                  */
 //   /*---------------------------------------- */
 
-
-
- @media only screen
-   and (max-width: 768px){
-
-
-
-
-html {
-  width: 100%;
-  height: 1500px;
-  overflow-x: hidden;
-
-
-
-}
-
-body {
-  width: 100%;
-  height: 1500px;
-
-
- 
-  overflow-x: hidden;
-}
-/*-----------------------------------------*/
-//    /*HEADER SECTION*/
-// /*-----------------------------------------*
-
-header {
-  background:var(--secondary-color);
-  width: 100%;
-  height: 500px;
-  clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
-
-  .cv__section--details {
-    float: right;
-    // margin-right: 50px;
-    margin-left: 150px;
-
-    .job__heading {
-      color:var(--primary-color);
-      font-size: 24px;
-    }
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 30px;
-
-    .main__heading {
-      color: rgb(0, 0, 0);
-      font-size: 90px;
-      font-family: "Playfair Display", serif;
-    }
-
-    p {
-      color: var(--primary-color);
-      font-size: 0.5rem;
-      color: rgb(255, 255, 255);
-
-    }
+@media only screen and (max-width: 768px) {
+  html {
+    width: 100%;
+    height: 1500px;
+    overflow-x: hidden;
   }
-}
 
-.wrapper {
-  display: grid;
-  grid-template-columns:500px;
-  grid-template-rows: 240px;
-  grid-gap: 10px;
-  justify-content: center;
-  height: 1000px;
-  grid-template-areas: 'gridItem2' 
-  'gridItem1' 
-  'gridItem3'
-  'gridItem4' 
-  'gridItem5' 
-  'gridItem6' 
-  'gridItem7' 
-  'gridItem8';
-padding-bottom: 1000px;
+  body {
+    width: 100%;
+    height: 1500px;
 
-/*----------------------------------------*/
-  /* skillset section                         */
-  /*---------------------------------------- */
-  .skillset {
-  margin-top: 100px;
-    grid-row-start: 2;
-    .skillset__heading {
+    overflow-x: hidden;
+  }
+  /*-----------------------------------------*/
+  //    /*HEADER SECTION*/
+  // /*-----------------------------------------*
+
+  header {
+    background: var(--secondary-color);
+    width: 100%;
+    height: 500px;
+    clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
+
+    .cv__section--details {
+      float: right;
+      // margin-right: 50px;
+      margin-left: 150px;
+
+      .job__heading {
+        color: var(--primary-color);
+        font-size: 24px;
+      }
       font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 2px;
-     
-    }
+      font-size: 30px;
 
-    .skillset__list {
-      li {
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        letter-spacing: 2px;
-        line-height: 34px;
-     
+      .main__heading {
+        color: rgb(0, 0, 0);
+        font-size: 90px;
+        font-family: "Playfair Display", serif;
+      }
+
+      p {
+        color: var(--primary-color);
+        font-size: 0.5rem;
+        color: rgb(255, 255, 255);
       }
     }
   }
 
-// /*----------------------------------------*/
-//   /* about me section                         */
-//   /*---------------------------------------- */
+  .wrapper {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 240px;
+    grid-gap: 10px;
+    justify-content: center;
+    height: 1000px;
+    grid-template-areas:
+      "gridItem2"
+      "gridItem1"
+      "gridItem3"
+      "gridItem4"
+      "gridItem5"
+      "gridItem6"
+      "gridItem7"
+      "gridItem8";
+    padding-bottom: 1000px;
 
-  .about {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    margin-bottom: 80px;
-    width: 100%;
-
-//     &:after {
-//       display: block;
-//       height: 10px;
-//       width: 100px;
-//       content: "";
-//       background-color: var(--primary-color);
-//       margin-top: 80px;
-//       margin-bottom: 66px;
-
-    
-
-    .about__heading {
-      font-family: "Playfair Display", serif;
-      font-weight: 900;
-      font-size: 36px;
-      line-height: 46px;
-      padding-bottom: 20px;
-    }
-  }
-
-// /*----------------------------------------*/
-//   /* experience section                      */
-//   /*---------------------------------------- */
-
-  .experience {
-    margin-top: 20px;
-   
-grid-row-start: 3;
-
-    .experience__heading {
-      font-family: "Playfair Display", serif;
-      font-weight: 900;
-      font-size: 36px;
-      line-height: 46px;
-
-    }
-
-    .experience__heading--frontend {
-      font-family: "PT Sans Narrow", sans-serif;
-      padding-top: 20px;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 1px;
-      color: var(--secondary-color);
-
-      .experience__duration {
-
+    /*----------------------------------------*/
+    /* skillset section                         */
+    /*---------------------------------------- */
+    .skillset {
+      margin-top: 100px;
+      grid-row-start: 2;
+      .skillset__heading {
         font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
         color: var(--secondary-color);
         font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+      }
+
+      .skillset__list {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          letter-spacing: 2px;
+          line-height: 34px;
+        }
       }
     }
 
-    .experience__paragraph {
+    // /*----------------------------------------*/
+    //   /* about me section                         */
+    //   /*---------------------------------------- */
+
+    .about {
       font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
       font-size: 20px;
       line-height: 34px;
-      font-weight: 400;
+      margin-bottom: 80px;
+      width: 100%;
+
+      //     &:after {
+      //       display: block;
+      //       height: 10px;
+      //       width: 100px;
+      //       content: "";
+      //       background-color: var(--primary-color);
+      //       margin-top: 80px;
+      //       margin-bottom: 66px;
+
+      .about__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 46px;
+        padding-bottom: 20px;
+      }
     }
-  }
 
-//  /*----------------------------------------*/
-//   /* certification section                         */
-//   /*---------------------------------------- */
+    // /*----------------------------------------*/
+    //   /* experience section                      */
+    //   /*---------------------------------------- */
 
-  .certification {
-    width: 350px;
-    height: 100%;
-    margin-top: 50px;
-
-    .certification__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 2px;
-    }
-  }
-
-  .certification-list {
-   
-    text-decoration: none;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 34px;
-    
-  }
-
- /*----------------------------------------*/
-  /* career traits section                  */
-  /*---------------------------------------- */
-
-  .career {
-margin-top: 30px;
-    .career__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 24px;
-      letter-spacing: 2px;
+    .experience {
       margin-top: 20px;
-    }
 
-    .career__list {
-      list-style: none;
+      grid-row-start: 3;
 
-      .career__paragraph1 {
+      .experience__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 46px;
+      }
+
+      .experience__heading--frontend {
         font-family: "PT Sans Narrow", sans-serif;
-        font-size: 20px;
-        line-height: 34px;
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: var(--secondary-color);
 
-        .bold {
-          font-weight: bold;
+        .experience__duration {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: var(--secondary-color);
+          font-weight: 700;
         }
       }
 
-      .career__paragraph {
+      .experience__paragraph {
         font-family: "PT Sans Narrow", sans-serif;
-        margin-top: 50px;
         font-size: 20px;
+        line-height: 34px;
         font-weight: 400;
-        line-height: 34px;
+      }
+    }
 
-        .bold {
-          font-weight: bold;
+    //  /*----------------------------------------*/
+    //   /* certification section                         */
+    //   /*---------------------------------------- */
+
+    .certification {
+      width: 350px;
+      height: 100%;
+      margin-top: 50px;
+
+      .certification__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+      }
+    }
+
+    .certification-list {
+      text-decoration: none;
+      font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 1px;
+      line-height: 34px;
+    }
+
+    /*----------------------------------------*/
+    /* career traits section                  */
+    /*---------------------------------------- */
+
+    .career {
+      margin-top: 30px;
+      .career__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+      }
+
+      .career__list {
+        list-style: none;
+
+        .career__paragraph1 {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-size: 20px;
+          line-height: 34px;
+
+          .bold {
+            font-weight: bold;
+          }
+        }
+
+        .career__paragraph {
+          font-family: "PT Sans Narrow", sans-serif;
+          margin-top: 50px;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 34px;
+
+          .bold {
+            font-weight: bold;
+          }
         }
       }
     }
-  }
 
-//    /*----------------------------------------*/
-//   /* PROGRAM WRAPPER SECTION        */
-//   /*---------------------------------------- */
+    //    /*----------------------------------------*/
+    //   /* PROGRAM WRAPPER SECTION        */
+    //   /*---------------------------------------- */
 
-
-
-   /*----------------------------------------*/
-  /*program                           */
-  /*---------------------------------------- */
+    /*----------------------------------------*/
+    /*program                           */
+    /*---------------------------------------- */
 
     .program {
-   margin-top: 50px;
+      margin-top: 50px;
       .program__analyst {
         line-height: 24px;
         margin-top: 20px;
@@ -777,26 +686,22 @@ margin-top: 30px;
         letter-spacing: 1px;
       }
 
-
-
       .program__analyst--responsibilities {
-
-       li {
+        li {
           font-family: "PT Sans Narrow", sans-serif;
-          line-height:34px ;
+          line-height: 34px;
           font-size: 20px;
         }
-
       }
     }
 
-   /*----------------------------------------*/
-  /* tourguide section                      */
-  /*---------------------------------------- */
+    /*----------------------------------------*/
+    /* tourguide section                      */
+    /*---------------------------------------- */
 
     .Sifmis {
-     .Sifmis__heading {
-       width: 100%;
+      .Sifmis__heading {
+        width: 100%;
         line-height: 24px;
         margin-top: 66px;
         display: flex;
@@ -808,329 +713,67 @@ margin-top: 30px;
         letter-spacing: 1px;
       }
 
-      
       .Sifmis--responsibilities {
-
-      
-
-
         li {
           font-family: "PT Sans Narrow", sans-serif;
-          line-height:34px ;
+          line-height: 34px;
           font-size: 20px;
         }
-
       }
     }
 
+    //    /*----------------------------------------*/
+    //   /* PROGRAM-TOURGUIDE SECTION ENDS   */
+    //   /*---------------------------------------- */
 
+    //    /*----------------------------------------*/
+    //   /*  recent works section                  */
+    //   /*---------------------------------------- */
 
-//    /*----------------------------------------*/
-//   /* PROGRAM-TOURGUIDE SECTION ENDS   */
-//   /*---------------------------------------- */
-
-//    /*----------------------------------------*/
-//   /*  recent works section                  */
-//   /*---------------------------------------- */
-
-  .recent-works {
+    .recent-works {
       padding-top: 50px;
-    .recent-works__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      color: var(--secondary-color);
-    }
-
-    .recent-works__list {
-      font-family: "PT Sans Narrow", sans-serif;
-      list-style: none;
-      font-size: 20px;
-      font-weight: 700;
-      line-height: 34px;
-    }
-  }
- /*----------------------------------------*/
-  /*  education section                     */
-  /*---------------------------------------- */
-
-  .education {
-    line-height: 46px;
-     padding-top: 50px;
-    .education__heading {
-      font-family: "Playfair Display", serif;
-      font-weight: 900;
-      font-size: 36px;
-      line-height: 46px;
-     
-    }
-
-    .education__timeline {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .education__paragraph--1 {
-      font-family: "PT Sans Narrow", sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      color: var(--secondary-color);
-    }
-
-    .education__paragraph--2 {
-
-      font-family: "PT Sans Narrow", sans-serif;
-      font-weight: 400;
-      font-size: 18px;
-      color: var(--secondary-color);
-      font-weight: 700;
-    }
-  }
-
-
-
-  .projects {
-      margin-top: 50px;
-    .projects__heading {
-      font-family: "Playfair Display", serif;
-      font-weight: 900;
-      font-size: 36px;
-      line-height: 46px;
-
-    }
-
-    .projects__list {
-      li {
+      .recent-works__heading {
         font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 34px;
-        margin-left: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--secondary-color);
+      }
 
+      .recent-works__list {
+        font-family: "PT Sans Narrow", sans-serif;
+        list-style: none;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 34px;
       }
     }
-  }
+    /*----------------------------------------*/
+    /*  education section                     */
+    /*---------------------------------------- */
 
-}
-// /*----------------------------------------*/
-// /*   FOOTER SECTION                        */
-// /*---------------------------------------- */
-
-footer {
-  background: #2f242c;
- 
-  width: 100%;
-  height: 800px;
-  // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
-  display: flex;
-  flex-direction: column;
-margin-top: 2700px;
-
-
-
-
-  .footer__heading {
-    color: var(--primary-color);
-    font-family: "Playfair Display", serif;
-    font-size: 66px;
-    font-weight: 900;
-    line-height: 82px;
-    padding-top: 60px;
-    margin:auto;
-  }
-
-  .phone {
- 
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 10px;
-    color: var(--primary-color);
-    margin:auto;
-    
-  }
-
-  .social-media__list {
-    list-style: none;
-    display: inline-flex;
-    margin-top: 66px;
-    margin: auto;
-
-    li {
-      margin: 0 30px;
-    }
-  }
-}
-
-   }
-
- 
-
-   @media only screen
-   and (max-width: 414px){
-  
-
-
-
-html {
-  width: 100%;
-  height: 1500px;
-  overflow-x: hidden;
-
-
-
-}
-
-body {
-  width: 100%;
-  height: 1500px;
-
-
- 
-  overflow-x: hidden;
-}
-/*-----------------------------------------*/
-//    /*HEADER SECTION*/
-// /*-----------------------------------------*
-
-header {
-  background:var(--secondary-color);
-  width: 100%;
-  height: 500px;
-  clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
-
-  .cv__section--details {
-    float: right;
-    // margin-right: 50px;
-    margin-left: 150px;
-
-    .job__heading {
-      color:var(--primary-color);
-      font-size: 24px;
-    }
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 30px;
-
-    .main__heading {
-      color: rgb(0, 0, 0);
-      font-size: 90px;
-      font-family: "Playfair Display", serif;
-    }
-
-    p {
-      color: var(--primary-color);
-      font-size: 0.5rem;
-      color: rgb(255, 255, 255);
-
-    }
-  }
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 400px;
-  grid-template-rows: 240px;
-  grid-gap: 10px;
-  justify-content: center;
-  height: 1000px;
-  grid-template-areas: 'gridItem2' 
-  'gridItem1' 
-  'gridItem3'
-  'gridItem4' 
-  'gridItem5' 
-  'gridItem6' 
-  'gridItem7' 
-  'gridItem8';
-padding-bottom: 1000px;
-
-/*----------------------------------------*/
-  /* skillset section                         */
-  /*---------------------------------------- */
-  .skillset {
-  margin-top: 100px;
-    grid-row-start: 2;
-    .skillset__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 2px;
-     
-    }
-
-    .skillset__list {
-      li {
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        letter-spacing: 2px;
-        line-height: 34px;
-     
+    .education {
+      line-height: 46px;
+      padding-top: 50px;
+      .education__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 46px;
       }
-    }
-  }
 
-// /*----------------------------------------*/
-//   /* about me section                         */
-//   /*---------------------------------------- */
+      .education__timeline {
+        display: flex;
+        justify-content: space-between;
+      }
 
-  .about {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    margin-bottom: 80px;
-    width: 100%;
+      .education__paragraph--1 {
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--secondary-color);
+      }
 
-//     &:after {
-//       display: block;
-//       height: 10px;
-//       width: 100px;
-//       content: "";
-//       background-color: var(--primary-color);
-//       margin-top: 80px;
-//       margin-bottom: 66px;
-
-    
-
-    .about__heading {
-      font-family: "Playfair Display", serif;
-      font-weight: 900;
-      font-size: 36px;
-      line-height: 46px;
-      padding-bottom: 20px;
-    }
-  }
-
-// /*----------------------------------------*/
-//   /* experience section                      */
-//   /*---------------------------------------- */
-
-  .experience {
-    margin-top: 20px;
-   
-grid-row-start: 3;
-
-    .experience__heading {
-      font-family: "Playfair Display", serif;
-      font-weight: 900;
-      font-size: 36px;
-      line-height: 46px;
-
-    }
-
-    .experience__heading--frontend {
-      font-family: "PT Sans Narrow", sans-serif;
-      padding-top: 20px;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 1px;
-      color: var(--secondary-color);
-
-      .experience__duration {
-
+      .education__paragraph--2 {
         font-family: "PT Sans Narrow", sans-serif;
         font-weight: 400;
         font-size: 18px;
@@ -1139,99 +782,318 @@ grid-row-start: 3;
       }
     }
 
-    .experience__paragraph {
+    .projects {
+      margin-top: 50px;
+      .projects__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 46px;
+      }
+
+      .projects__list {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 34px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+  // /*----------------------------------------*/
+  // /*   FOOTER SECTION                        */
+  // /*---------------------------------------- */
+
+  footer {
+    background: #2f242c;
+
+    width: 100%;
+    height: 800px;
+    // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
+    display: flex;
+    flex-direction: column;
+    margin-top: 2700px;
+
+    .footer__heading {
+      color: var(--primary-color);
+      font-family: "Playfair Display", serif;
+      font-size: 66px;
+      font-weight: 900;
+      line-height: 82px;
+      padding-top: 60px;
+      margin: auto;
+    }
+
+    .phone {
       font-family: "PT Sans Narrow", sans-serif;
+      font-size: 36px;
+      font-weight: 900;
+      line-height: 10px;
+      color: var(--primary-color);
+      margin: auto;
+    }
+
+    .social-media__list {
+      list-style: none;
+      display: inline-flex;
+      margin-top: 66px;
+      margin: auto;
+
+      li {
+        margin: 0 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  html {
+    width: 100%;
+    height: 1500px;
+    overflow-x: hidden;
+  }
+
+  body {
+    width: 100%;
+    height: 1500px;
+
+    overflow-x: hidden;
+  }
+  /*-----------------------------------------*/
+  //    /*HEADER SECTION*/
+  // /*-----------------------------------------*
+
+  header {
+    background: var(--secondary-color);
+    width: 100%;
+    height: 500px;
+    clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
+
+    .cv__section--details {
+      float: right;
+      // margin-right: 50px;
+      margin-left: 150px;
+
+      .job__heading {
+        color: var(--primary-color);
+        font-size: 24px;
+      }
+      font-family: "PT Sans Narrow", sans-serif;
+      font-size: 30px;
+
+      .main__heading {
+        color: rgb(0, 0, 0);
+        font-size: 90px;
+        font-family: "Playfair Display", serif;
+      }
+
+      p {
+        color: var(--primary-color);
+        font-size: 0.5rem;
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 240px;
+    grid-gap: 10px;
+    justify-content: center;
+    height: 1000px;
+    grid-template-areas:
+      "gridItem2"
+      "gridItem1"
+      "gridItem3"
+      "gridItem4"
+      "gridItem5"
+      "gridItem6"
+      "gridItem7"
+      "gridItem8";
+    padding-bottom: 1000px;
+
+    /*----------------------------------------*/
+    /* skillset section                         */
+    /*---------------------------------------- */
+    .skillset {
+      margin-top: 100px;
+      grid-row-start: 2;
+      .skillset__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+      }
+
+      .skillset__list {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          letter-spacing: 2px;
+          line-height: 34px;
+        }
+      }
+    }
+
+    // /*----------------------------------------*/
+    //   /* about me section                         */
+    //   /*---------------------------------------- */
+
+    .about {
+      font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
       font-size: 20px;
       line-height: 34px;
-      font-weight: 400;
+      margin-bottom: 80px;
+      width: 100%;
+
+      //     &:after {
+      //       display: block;
+      //       height: 10px;
+      //       width: 100px;
+      //       content: "";
+      //       background-color: var(--primary-color);
+      //       margin-top: 80px;
+      //       margin-bottom: 66px;
+
+      .about__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 46px;
+        padding-bottom: 20px;
+      }
     }
-  }
 
-//  /*----------------------------------------*/
-//   /* certification section                         */
-//   /*---------------------------------------- */
+    // /*----------------------------------------*/
+    //   /* experience section                      */
+    //   /*---------------------------------------- */
 
-  .certification {
-    width: 350px;
-    height: 100%;
-    margin-top: 50px;
-
-    .certification__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 2px;
-    }
-  }
-
-  .certification-list {
-   
-    text-decoration: none;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 34px;
-    
-  }
-
- /*----------------------------------------*/
-  /* career traits section                  */
-  /*---------------------------------------- */
-
-  .career {
-margin-top: 30px;
-    .career__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 24px;
-      letter-spacing: 2px;
+    .experience {
       margin-top: 20px;
-    }
 
-    .career__list {
-      list-style: none;
+      grid-row-start: 3;
 
-      .career__paragraph1 {
+      .experience__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 46px;
+      }
+
+      .experience__heading--frontend {
         font-family: "PT Sans Narrow", sans-serif;
-        font-size: 20px;
-        line-height: 34px;
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: var(--secondary-color);
 
-        .bold {
-          font-weight: bold;
+        .experience__duration {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: var(--secondary-color);
+          font-weight: 700;
         }
       }
 
-      .career__paragraph {
+      .experience__paragraph {
         font-family: "PT Sans Narrow", sans-serif;
-        margin-top: 50px;
         font-size: 20px;
+        line-height: 34px;
         font-weight: 400;
-        line-height: 34px;
+      }
+    }
 
-        .bold {
-          font-weight: bold;
+    //  /*----------------------------------------*/
+    //   /* certification section                         */
+    //   /*---------------------------------------- */
+
+    .certification {
+      width: 350px;
+      height: 100%;
+      margin-top: 50px;
+
+      .certification__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+      }
+    }
+
+    .certification-list {
+      text-decoration: none;
+      font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 1px;
+      line-height: 34px;
+    }
+
+    /*----------------------------------------*/
+    /* career traits section                  */
+    /*---------------------------------------- */
+
+    .career {
+      margin-top: 30px;
+      .career__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+      }
+
+      .career__list {
+        list-style: none;
+
+        .career__paragraph1 {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-size: 20px;
+          line-height: 34px;
+
+          .bold {
+            font-weight: bold;
+          }
+        }
+
+        .career__paragraph {
+          font-family: "PT Sans Narrow", sans-serif;
+          margin-top: 50px;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 34px;
+
+          .bold {
+            font-weight: bold;
+          }
         }
       }
     }
-  }
 
-//    /*----------------------------------------*/
-//   /* PROGRAM WRAPPER SECTION        */
-//   /*---------------------------------------- */
+    //    /*----------------------------------------*/
+    //   /* PROGRAM WRAPPER SECTION        */
+    //   /*---------------------------------------- */
 
-
-
-   /*----------------------------------------*/
-  /*program                           */
-  /*---------------------------------------- */
+    /*----------------------------------------*/
+    /*program                           */
+    /*---------------------------------------- */
 
     .program {
-   margin-top: 50px;
+      margin-top: 50px;
       .program__analyst {
         line-height: 24px;
         margin-top: 20px;
@@ -1244,26 +1106,22 @@ margin-top: 30px;
         letter-spacing: 1px;
       }
 
-
-
       .program__analyst--responsibilities {
-
-       li {
+        li {
           font-family: "PT Sans Narrow", sans-serif;
-          line-height:34px ;
+          line-height: 34px;
           font-size: 20px;
         }
-
       }
     }
 
-   /*----------------------------------------*/
-  /* tourguide section                      */
-  /*---------------------------------------- */
+    /*----------------------------------------*/
+    /* tourguide section                      */
+    /*---------------------------------------- */
 
     .Sifmis {
-     .Sifmis__heading {
-       width: 100%;
+      .Sifmis__heading {
+        width: 100%;
         line-height: 24px;
         margin-top: 66px;
         display: flex;
@@ -1275,22 +1133,15 @@ margin-top: 30px;
         letter-spacing: 1px;
       }
 
-      
       .Sifmis--responsibilities {
-
-      
-
-
         li {
           font-family: "PT Sans Narrow", sans-serif;
-          line-height:34px ;
+          line-height: 34px;
           font-size: 20px;
         }
-
       }
     }
     .schoolTeacher {
-
       .schoolTeacher__heading {
         line-height: 24px;
         margin-top: 66px;
@@ -1304,397 +1155,361 @@ margin-top: 30px;
         text-transform: uppercase;
       }
 
-.schoolTeacher--responsibilities {
-  line-height:34px ;
+      .schoolTeacher--responsibilities {
+        line-height: 34px;
 
-  
-li {
-
-  font-family: "PT Sans Narrow", sans-serif;
-  line-height: 34px;
-  font-size: 20px;
-  font-weight: 500;
-  margin-left: 20px;
-
-}
-}
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          line-height: 34px;
+          font-size: 20px;
+          font-weight: 500;
+          margin-left: 20px;
+        }
+      }
     }
 
+    //    /*----------------------------------------*/
+    //   /* PROGRAM-TOURGUIDE SECTION ENDS   */
+    //   /*---------------------------------------- */
 
+    //    /*----------------------------------------*/
+    //   /*  recent works section                  */
+    //   /*---------------------------------------- */
 
-//    /*----------------------------------------*/
-//   /* PROGRAM-TOURGUIDE SECTION ENDS   */
-//   /*---------------------------------------- */
+    // .recent-works {
+    //     padding-top: 50px;
+    //   .recent-works__heading {
+    //     font-family: "PT Sans Narrow", sans-serif;
+    //     font-weight: 700;
+    //     font-size: 18px;
+    //     color: var(--secondary-color);
+    //   }
 
-//    /*----------------------------------------*/
-//   /*  recent works section                  */
-//   /*---------------------------------------- */
+    //   .recent-works__list {
+    //     font-family: "PT Sans Narrow", sans-serif;
+    //     list-style: none;
+    //     font-size: 20px;
+    //     font-weight: 700;
+    //     line-height: 34px;
+    //   }
+    // }
+    /*----------------------------------------*/
+    /*  education section                     */
+    /*---------------------------------------- */
 
-  // .recent-works {
-  //     padding-top: 50px;
-  //   .recent-works__heading {
-  //     font-family: "PT Sans Narrow", sans-serif;
-  //     font-weight: 700;
-  //     font-size: 18px;
-  //     color: var(--secondary-color);
-  //   }
-
-  //   .recent-works__list {
-  //     font-family: "PT Sans Narrow", sans-serif;
-  //     list-style: none;
-  //     font-size: 20px;
-  //     font-weight: 700;
-  //     line-height: 34px;
-  //   }
-  // }
- /*----------------------------------------*/
-  /*  education section                     */
-  /*---------------------------------------- */
-
-
-
-  .projects {
+    .projects {
       margin-top: 50px;
-    .projects__heading {
-      font-family: "Playfair Display", serif;
-      font-weight: 900;
-      font-size: 25px;
-      line-height: 46px;
+      .projects__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 46px;
+      }
 
-    }
-
-    .projects__list {
-      li {
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 34px;
-        margin-left: 20px;
-
+      .projects__list {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 34px;
+          margin-left: 20px;
+        }
       }
     }
   }
+  // /*----------------------------------------*/
+  // /*   FOOTER SECTION                        */
+  // /*---------------------------------------- */
 
-}
-// /*----------------------------------------*/
-// /*   FOOTER SECTION                        */
-// /*---------------------------------------- */
+  footer {
+    background: #2f242c;
 
-footer {
-  background: #2f242c;
-
-  width: 100%;
-  height: 800px;
-  // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
-  display: flex;
-  flex-direction: column;
-margin-top: 3400px;
-
-
-
-
-  .footer__heading {
-    color: var(--primary-color);
-    font-family: "Playfair Display", serif;
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 82px;
-    margin:auto
-  }
-
-  .phone {
- 
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 10px;
-    color: var(--primary-color);
-    margin: auto;
-    
-  }
-
-  .social-media__list {
-    list-style: none;
-    display: inline-flex;
-    margin-top: 66px;
-    margin: auto;
-
-    li {
-      margin: 0 30px;
-    }
-  }
-}
-
-   }
-
- 
-   @media only screen
-   and (max-width: 375px){
- 
-
-
-html {
-  width: 100%;
-  height: 1500px;
-  overflow-x: hidden;
-
-
-
-}
-
-body {
-  width: 100%;
-  height: 1500px;
-
-
- 
-  overflow-x: hidden;
-}
-/*-----------------------------------------*/
-//    /*HEADER SECTION*/
-// /*-----------------------------------------*
-
-header {
-  background:var(--secondary-color);
-  width: 100%;
-  height: 500px;
-  clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
-
-  .cv__section--details {
-    float: right;
-    // margin-right: 50px;
-    margin-left: 30px;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 30px;
-
-    .job__heading {
-      color:var(--primary-color);
-      font-size: 24px;
-    }
-  
-    .main__heading {
-      color: rgb(0, 0, 0);
-      font-size: 50px;
-      font-family: "Playfair Display", serif;
-    }
-
-    p {
-      color: var(--primary-color);
-      font-size: 0.5rem;
-      color: rgb(255, 255, 255);
-
-    }
-  }
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 360px;
-  grid-template-rows: 240px;
-  grid-gap: 10px;
-  justify-content: center;
-  height: 1000px;
-  grid-template-areas: 'gridItem2' 
-  'gridItem1' 
-  'gridItem3'
-  'gridItem4' 
-  'gridItem5' 
-  'gridItem6' 
-  'gridItem7' 
-  'gridItem8';
-  padding-left: 20px;
-  padding-right: 20px;
-padding-bottom: 1000px;
-
-/*----------------------------------------*/
-  /* skillset section                         */
-  /*---------------------------------------- */
-  .skillset {
-  margin-top: 100px;
-    grid-row-start: 2;
-    .skillset__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 2px;
-     
-    }
-
-    .skillset__list {
-      li {
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        letter-spacing: 2px;
-        line-height: 34px;
-     
-      }
-    }
-  }
-
-// /*----------------------------------------*/
-//   /* about me section                         */
-//   /*---------------------------------------- */
-
-  .about {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 80px;
     width: 100%;
+    height: 800px;
+    // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
+    display: flex;
+    flex-direction: column;
+    margin-top: 3400px;
 
-//     &:after {
-//       display: block;
-//       height: 10px;
-//       width: 100px;
-//       content: "";
-//       background-color: var(--primary-color);
-//       margin-top: 80px;
-//       margin-bottom: 66px;
-
-    
-
-    .about__heading {
+    .footer__heading {
+      color: var(--primary-color);
       font-family: "Playfair Display", serif;
+      font-size: 40px;
       font-weight: 900;
+      line-height: 82px;
+      margin: auto;
+    }
+
+    .phone {
+      font-family: "PT Sans Narrow", sans-serif;
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 10px;
+      color: var(--primary-color);
+      margin: auto;
+    }
+
+    .social-media__list {
+      list-style: none;
+      display: inline-flex;
+      margin-top: 66px;
+      margin: auto;
+
+      li {
+        margin: 0 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  html {
+    width: 100%;
+    height: 1500px;
+    overflow-x: hidden;
+  }
+
+  body {
+    width: 100%;
+    height: 1500px;
+
+    overflow-x: hidden;
+  }
+  /*-----------------------------------------*/
+  //    /*HEADER SECTION*/
+  // /*-----------------------------------------*
+
+  header {
+    background: var(--secondary-color);
+    width: 100%;
+    height: 500px;
+    clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
+
+    .cv__section--details {
+      float: right;
+      // margin-right: 50px;
+      margin-left: 30px;
+      font-family: "PT Sans Narrow", sans-serif;
       font-size: 30px;
-      line-height: 46px;
-      padding-bottom: 20px;
+
+      .job__heading {
+        color: var(--primary-color);
+        font-size: 24px;
+      }
+
+      .main__heading {
+        color: rgb(0, 0, 0);
+        font-size: 50px;
+        font-family: "Playfair Display", serif;
+      }
+
+      p {
+        color: var(--primary-color);
+        font-size: 0.5rem;
+        color: rgb(255, 255, 255);
+      }
     }
   }
 
-// /*----------------------------------------*/
-//   /* experience section                      */
-//   /*---------------------------------------- */
+  .wrapper {
+    display: grid;
+    grid-template-columns: 360px;
+    grid-template-rows: 240px;
+    grid-gap: 10px;
+    justify-content: center;
+    height: 1000px;
+    grid-template-areas:
+      "gridItem2"
+      "gridItem1"
+      "gridItem3"
+      "gridItem4"
+      "gridItem5"
+      "gridItem6"
+      "gridItem7"
+      "gridItem8";
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 1000px;
 
-  .experience {
-    margin-top: 20px;
-   
-grid-row-start: 3;
-
-    .experience__heading {
-      font-family: "Playfair Display", serif;
-      font-weight: 900;
-      font-size: 36px;
-      line-height: 46px;
-
-    }
-
-    .experience__heading--frontend {
-      font-family: "PT Sans Narrow", sans-serif;
-      padding-top: 20px;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 1px;
-      color: var(--secondary-color);
-
-      .experience__duration {
-
+    /*----------------------------------------*/
+    /* skillset section                         */
+    /*---------------------------------------- */
+    .skillset {
+      margin-top: 100px;
+      grid-row-start: 2;
+      .skillset__heading {
         font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
         color: var(--secondary-color);
         font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+      }
+
+      .skillset__list {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          letter-spacing: 2px;
+          line-height: 34px;
+        }
       }
     }
 
-    .experience__paragraph {
+    // /*----------------------------------------*/
+    //   /* about me section                         */
+    //   /*---------------------------------------- */
+
+    .about {
       font-family: "PT Sans Narrow", sans-serif;
-      font-size: 20px;
-      line-height: 34px;
       font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 80px;
+      width: 100%;
+
+      //     &:after {
+      //       display: block;
+      //       height: 10px;
+      //       width: 100px;
+      //       content: "";
+      //       background-color: var(--primary-color);
+      //       margin-top: 80px;
+      //       margin-bottom: 66px;
+
+      .about__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 46px;
+        padding-bottom: 20px;
+      }
     }
-  }
 
-//  /*----------------------------------------*/
-//   /* certification section                         */
-//   /*---------------------------------------- */
+    // /*----------------------------------------*/
+    //   /* experience section                      */
+    //   /*---------------------------------------- */
 
-  .certification {
-    width: 350px;
-    height: 100%;
-    margin-top: 50px;
-
-    .certification__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 2px;
-    }
-  }
-
-  .certification-list {
-   
-    text-decoration: none;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 34px;
-    
-  }
-
- /*----------------------------------------*/
-  /* career traits section                  */
-  /*---------------------------------------- */
-
-  .career {
-margin-top: 30px;
-    .career__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 24px;
-      letter-spacing: 2px;
+    .experience {
       margin-top: 20px;
-    }
 
-    .career__list {
-      list-style: none;
+      grid-row-start: 3;
 
-      .career__paragraph1 {
+      .experience__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 46px;
+      }
+
+      .experience__heading--frontend {
         font-family: "PT Sans Narrow", sans-serif;
-        font-size: 20px;
-        line-height: 34px;
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: var(--secondary-color);
 
-        .bold {
-          font-weight: bold;
+        .experience__duration {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: var(--secondary-color);
+          font-weight: 700;
         }
       }
 
-      .career__paragraph {
+      .experience__paragraph {
         font-family: "PT Sans Narrow", sans-serif;
-        margin-top: 50px;
         font-size: 20px;
+        line-height: 34px;
         font-weight: 400;
-        line-height: 34px;
+      }
+    }
 
-        .bold {
-          font-weight: bold;
+    //  /*----------------------------------------*/
+    //   /* certification section                         */
+    //   /*---------------------------------------- */
+
+    .certification {
+      width: 350px;
+      height: 100%;
+      margin-top: 50px;
+
+      .certification__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+      }
+    }
+
+    .certification-list {
+      text-decoration: none;
+      font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 34px;
+    }
+
+    /*----------------------------------------*/
+    /* career traits section                  */
+    /*---------------------------------------- */
+
+    .career {
+      margin-top: 30px;
+      .career__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+      }
+
+      .career__list {
+        list-style: none;
+
+        .career__paragraph1 {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-size: 20px;
+          line-height: 34px;
+
+          .bold {
+            font-weight: bold;
+          }
+        }
+
+        .career__paragraph {
+          font-family: "PT Sans Narrow", sans-serif;
+          margin-top: 50px;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 34px;
+
+          .bold {
+            font-weight: bold;
+          }
         }
       }
     }
-  }
 
-//    /*----------------------------------------*/
-//   /* PROGRAM WRAPPER SECTION        */
-//   /*---------------------------------------- */
+    //    /*----------------------------------------*/
+    //   /* PROGRAM WRAPPER SECTION        */
+    //   /*---------------------------------------- */
 
-
-
-   /*----------------------------------------*/
-  /*program                           */
-  /*---------------------------------------- */
+    /*----------------------------------------*/
+    /*program                           */
+    /*---------------------------------------- */
 
     .program {
-   margin-top: 50px;
+      margin-top: 50px;
       .program__analyst {
         line-height: 24px;
         margin-top: 20px;
@@ -1707,26 +1522,22 @@ margin-top: 30px;
         letter-spacing: 1px;
       }
 
-
-
       .program__analyst--responsibilities {
-
-       li {
+        li {
           font-family: "PT Sans Narrow", sans-serif;
-          line-height:34px ;
+          line-height: 34px;
           font-size: 18px;
         }
-
       }
     }
 
-   /*----------------------------------------*/
-  /* tourguide section                      */
-  /*---------------------------------------- */
+    /*----------------------------------------*/
+    /* tourguide section                      */
+    /*---------------------------------------- */
 
     .Sifmis {
-     .Sifmis__heading {
-       width: 100%;
+      .Sifmis__heading {
+        width: 100%;
         line-height: 24px;
         margin-top: 66px;
         display: flex;
@@ -1738,22 +1549,15 @@ margin-top: 30px;
         letter-spacing: 1px;
       }
 
-      
       .Sifmis--responsibilities {
-
-      
-
-
         li {
           font-family: "PT Sans Narrow", sans-serif;
-          line-height:34px ;
+          line-height: 34px;
           font-size: 18px;
         }
-
       }
     }
     .schoolTeacher {
-
       .schoolTeacher__heading {
         line-height: 24px;
         margin-top: 66px;
@@ -1767,395 +1571,358 @@ margin-top: 30px;
         text-transform: uppercase;
       }
 
-.schoolTeacher--responsibilities {
-  line-height:34px ;
+      .schoolTeacher--responsibilities {
+        line-height: 34px;
 
-  
-li {
-
-  font-family: "PT Sans Narrow", sans-serif;
-  line-height: 34px;
-  font-size: 18px;
-  font-weight: 500;
-  margin-left: 20px;
-
-}
-}
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          line-height: 34px;
+          font-size: 18px;
+          font-weight: 500;
+          margin-left: 20px;
+        }
+      }
     }
 
+    //    /*----------------------------------------*/
+    //   /* PROGRAM-TOURGUIDE SECTION ENDS   */
+    //   /*---------------------------------------- */
 
+    //    /*----------------------------------------*/
+    //   /*  recent works section                  */
+    //   /*---------------------------------------- */
 
-//    /*----------------------------------------*/
-//   /* PROGRAM-TOURGUIDE SECTION ENDS   */
-//   /*---------------------------------------- */
+    // .recent-works {
+    //     padding-top: 50px;
+    //   .recent-works__heading {
+    //     font-family: "PT Sans Narrow", sans-serif;
+    //     font-weight: 700;
+    //     font-size: 18px;
+    //     color: var(--secondary-color);
+    //   }
 
-//    /*----------------------------------------*/
-//   /*  recent works section                  */
-//   /*---------------------------------------- */
+    //   .recent-works__list {
+    //     font-family: "PT Sans Narrow", sans-serif;
+    //     list-style: none;
+    //     font-size: 20px;
+    //     font-weight: 700;
+    //     line-height: 34px;
+    //   }
+    // }
+    /*----------------------------------------*/
+    /*  education section                     */
+    /*---------------------------------------- */
 
-  // .recent-works {
-  //     padding-top: 50px;
-  //   .recent-works__heading {
-  //     font-family: "PT Sans Narrow", sans-serif;
-  //     font-weight: 700;
-  //     font-size: 18px;
-  //     color: var(--secondary-color);
-  //   }
-
-  //   .recent-works__list {
-  //     font-family: "PT Sans Narrow", sans-serif;
-  //     list-style: none;
-  //     font-size: 20px;
-  //     font-weight: 700;
-  //     line-height: 34px;
-  //   }
-  // }
- /*----------------------------------------*/
-  /*  education section                     */
-  /*---------------------------------------- */
-
-
-
-  .projects {
+    .projects {
       margin-top: 50px;
-    .projects__heading {
-      font-family: "Playfair Display", serif;
-      font-weight: 900;
-      font-size: 25px;
-      line-height: 46px;
+      .projects__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 46px;
+      }
 
-    }
-
-    .projects__list {
-      li {
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 34px;
-        margin-left: 20px;
-
+      .projects__list {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 34px;
+          margin-left: 20px;
+        }
       }
     }
   }
+  // /*----------------------------------------*/
+  // /*   FOOTER SECTION                        */
+  // /*---------------------------------------- */
 
-}
-// /*----------------------------------------*/
-// /*   FOOTER SECTION                        */
-// /*---------------------------------------- */
+  footer {
+    background: #2f242c;
 
-footer {
-  background: #2f242c;
-
-  width: 100%;
-  height: 800px;
-  // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
-  display: flex;
-  flex-direction: column;
-margin-top: 3400px;
-
-
-
-
-  .footer__heading {
-    color: var(--primary-color);
-    font-family: "Playfair Display", serif;
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 82px;
-    margin:auto
-  }
-
-  .phone {
- 
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 10px;
-    color: var(--primary-color);
-    
-  }
-
-  .social-media__list {
-    list-style: none;
-    display: inline-flex;
-    margin-top: 66px;
-    margin: auto;
-
-    li {
-      margin: 0 30px;
-    }
-  }
-}
-
-   }
-
-
-   @media only screen
-   and (max-width: 360px){
- 
-
-
-html {
-  width: 100%;
-  height: 1500px;
-  overflow-x: hidden;
-
-
-
-}
-
-body {
-  width: 100%;
-  height: 1500px;
-
-
- 
-  overflow-x: hidden;
-}
-/*-----------------------------------------*/
-//    /*HEADER SECTION*/
-// /*-----------------------------------------*
-
-header {
-  background:var(--secondary-color);
-  width: 100%;
-  height: 500px;
-  clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
-
-  .cv__section--details {
-
-    margin-right: 3px;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 30px;
-
-    .job__heading {
-      color:var(--primary-color);
-      font-size: 24px;
-    }
-  
-    .main__heading {
-      font-size: 50px;
-      font-family: "Playfair Display", serif;
-    }
-
-    p {
-      color: var(--primary-color);
-      font-size: 0.5rem;
-      color: rgb(255, 255, 255);
-
-    }
-  }
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 320px;
-  grid-template-rows: 240px;
-  grid-gap: 10px;
-  justify-content: center;
-  height: 1000px;
-  grid-template-areas: 'gridItem2' 
-  'gridItem1' 
-  'gridItem3'
-  'gridItem4' 
-  'gridItem5' 
-  'gridItem6' 
-  'gridItem7' 
-  'gridItem8';
-  padding-left: 10px;
-  padding-right: 10px;
-padding-bottom: 1000px;
-
-/*----------------------------------------*/
-  /* skillset section                         */
-  /*---------------------------------------- */
-  .skillset {
-  margin-top: 100px;
-    grid-row-start: 2;
-    .skillset__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 2px;
-     
-    }
-
-    .skillset__list {
-      li {
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        letter-spacing: 2px;
-        line-height: 34px;
-     
-      }
-    }
-  }
-
-// /*----------------------------------------*/
-//   /* about me section                         */
-//   /*---------------------------------------- */
-
-  .about {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: -50px;
-    margin-bottom: 80px;
     width: 100%;
+    height: 800px;
+    // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
+    display: flex;
+    flex-direction: column;
+    margin-top: 3400px;
 
-//     &:after {
-//       display: block;
-//       height: 10px;
-//       width: 100px;
-//       content: "";
-//       background-color: var(--primary-color);
-//       margin-top: 80px;
-//       margin-bottom: 66px;
-
-    
-
-    .about__heading {
+    .footer__heading {
+      color: var(--primary-color);
       font-family: "Playfair Display", serif;
+      font-size: 40px;
       font-weight: 900;
+      line-height: 82px;
+      margin: auto;
+    }
+
+    .phone {
+      font-family: "PT Sans Narrow", sans-serif;
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 10px;
+      color: var(--primary-color);
+    }
+
+    .social-media__list {
+      list-style: none;
+      display: inline-flex;
+      margin-top: 66px;
+      margin: auto;
+
+      li {
+        margin: 0 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  html {
+    width: 100%;
+    height: 1500px;
+    overflow-x: hidden;
+  }
+
+  body {
+    width: 100%;
+    height: 1500px;
+
+    overflow-x: hidden;
+  }
+  /*-----------------------------------------*/
+  //    /*HEADER SECTION*/
+  // /*-----------------------------------------*
+
+  header {
+    background: var(--secondary-color);
+    width: 100%;
+    height: 500px;
+    clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
+
+    .cv__section--details {
+      margin-right: 3px;
+      font-family: "PT Sans Narrow", sans-serif;
       font-size: 30px;
-      line-height: 46px;
-      padding-bottom: 20px;
+
+      .job__heading {
+        color: var(--primary-color);
+        font-size: 24px;
+      }
+
+      .main__heading {
+        font-size: 50px;
+        font-family: "Playfair Display", serif;
+      }
+
+      p {
+        color: var(--primary-color);
+        font-size: 0.5rem;
+        color: rgb(255, 255, 255);
+      }
     }
   }
 
-// /*----------------------------------------*/
-//   /* experience section                      */
-//   /*---------------------------------------- */
+  .wrapper {
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 240px;
+    grid-gap: 10px;
+    justify-content: center;
+    height: 1000px;
+    grid-template-areas:
+      "gridItem2"
+      "gridItem1"
+      "gridItem3"
+      "gridItem4"
+      "gridItem5"
+      "gridItem6"
+      "gridItem7"
+      "gridItem8";
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1000px;
 
-  .experience {
-    margin-top: 20px;
-   
-grid-row-start: 3;
-
-    .experience__heading {
-      font-family: "Playfair Display", serif;
-      font-weight: 900;
-      font-size: 36px;
-      line-height: 46px;
-
-    }
-
-    .experience__heading--frontend {
-      font-family: "PT Sans Narrow", sans-serif;
-      padding-top: 20px;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: 1px;
-      color: var(--secondary-color);
-
-      .experience__duration {
-
+    /*----------------------------------------*/
+    /* skillset section                         */
+    /*---------------------------------------- */
+    .skillset {
+      margin-top: 100px;
+      grid-row-start: 2;
+      .skillset__heading {
         font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
         color: var(--secondary-color);
         font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+      }
+
+      .skillset__list {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          letter-spacing: 2px;
+          line-height: 34px;
+        }
       }
     }
 
-    .experience__paragraph {
+    // /*----------------------------------------*/
+    //   /* about me section                         */
+    //   /*---------------------------------------- */
+
+    .about {
       font-family: "PT Sans Narrow", sans-serif;
-      font-size: 20px;
-      line-height: 34px;
       font-weight: 400;
-    }
-  }
-
-//  /*----------------------------------------*/
-//   /* certification section                         */
-//   /*---------------------------------------- */
-
-  .certification {
-    width: 350px;
-    height: 100%;
-    margin-top: 50px;
-
-    .certification__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-weight: 700;
       font-size: 20px;
-      line-height: 24px;
-      letter-spacing: 2px;
+      line-height: 30px;
+      margin-top: -50px;
+      margin-bottom: 80px;
+      width: 100%;
+
+      //     &:after {
+      //       display: block;
+      //       height: 10px;
+      //       width: 100px;
+      //       content: "";
+      //       background-color: var(--primary-color);
+      //       margin-top: 80px;
+      //       margin-bottom: 66px;
+
+      .about__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 46px;
+        padding-bottom: 20px;
+      }
     }
-  }
 
-  .certification-list {
-   
-    text-decoration: none;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 34px;
-    
-  }
+    // /*----------------------------------------*/
+    //   /* experience section                      */
+    //   /*---------------------------------------- */
 
- /*----------------------------------------*/
-  /* career traits section                  */
-  /*---------------------------------------- */
-
-  .career {
-margin-top: 30px;
-    .career__heading {
-      font-family: "PT Sans Narrow", sans-serif;
-      color: var(--secondary-color);
-      font-size: 20px;
-      font-weight: 700;
-      line-height: 24px;
-      letter-spacing: 2px;
+    .experience {
       margin-top: 20px;
-    }
 
-    .career__list {
-      list-style: none;
+      grid-row-start: 3;
 
-      .career__paragraph1 {
+      .experience__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 46px;
+      }
+
+      .experience__heading--frontend {
         font-family: "PT Sans Narrow", sans-serif;
-        font-size: 20px;
-        line-height: 34px;
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: var(--secondary-color);
 
-        .bold {
-          font-weight: bold;
+        .experience__duration {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: var(--secondary-color);
+          font-weight: 700;
         }
       }
 
-      .career__paragraph {
+      .experience__paragraph {
         font-family: "PT Sans Narrow", sans-serif;
-        margin-top: 50px;
         font-size: 20px;
+        line-height: 34px;
         font-weight: 400;
-        line-height: 34px;
+      }
+    }
 
-        .bold {
-          font-weight: bold;
+    //  /*----------------------------------------*/
+    //   /* certification section                         */
+    //   /*---------------------------------------- */
+
+    .certification {
+      width: 350px;
+      height: 100%;
+      margin-top: 50px;
+
+      .certification__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 2px;
+      }
+    }
+
+    .certification-list {
+      text-decoration: none;
+      font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 34px;
+    }
+
+    /*----------------------------------------*/
+    /* career traits section                  */
+    /*---------------------------------------- */
+
+    .career {
+      margin-top: 30px;
+      .career__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+      }
+
+      .career__list {
+        list-style: none;
+
+        .career__paragraph1 {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-size: 20px;
+          line-height: 34px;
+
+          .bold {
+            font-weight: bold;
+          }
+        }
+
+        .career__paragraph {
+          font-family: "PT Sans Narrow", sans-serif;
+          margin-top: 50px;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 34px;
+
+          .bold {
+            font-weight: bold;
+          }
         }
       }
     }
-  }
 
-//    /*----------------------------------------*/
-//   /* PROGRAM WRAPPER SECTION        */
-//   /*---------------------------------------- */
+    //    /*----------------------------------------*/
+    //   /* PROGRAM WRAPPER SECTION        */
+    //   /*---------------------------------------- */
 
-
-
-   /*----------------------------------------*/
-  /*program                           */
-  /*---------------------------------------- */
+    /*----------------------------------------*/
+    /*program                           */
+    /*---------------------------------------- */
 
     .program {
-   margin-top: 50px;
+      margin-top: 50px;
       .program__analyst {
         line-height: 24px;
         margin-top: 20px;
@@ -2168,26 +1935,22 @@ margin-top: 30px;
         letter-spacing: 1px;
       }
 
-
-
       .program__analyst--responsibilities {
-
-       li {
+        li {
           font-family: "PT Sans Narrow", sans-serif;
-          line-height:34px ;
+          line-height: 34px;
           font-size: 18px;
         }
-
       }
     }
 
-   /*----------------------------------------*/
-  /* tourguide section                      */
-  /*---------------------------------------- */
+    /*----------------------------------------*/
+    /* tourguide section                      */
+    /*---------------------------------------- */
 
     .Sifmis {
-     .Sifmis__heading {
-       width: 100%;
+      .Sifmis__heading {
+        width: 100%;
         line-height: 24px;
         margin-top: 66px;
         display: flex;
@@ -2199,22 +1962,15 @@ margin-top: 30px;
         letter-spacing: 1px;
       }
 
-      
       .Sifmis--responsibilities {
-
-      
-
-
         li {
           font-family: "PT Sans Narrow", sans-serif;
-          line-height:34px ;
+          line-height: 34px;
           font-size: 18px;
         }
-
       }
     }
     .schoolTeacher {
-
       .schoolTeacher__heading {
         line-height: 24px;
         margin-top: 66px;
@@ -2228,124 +1984,109 @@ margin-top: 30px;
         text-transform: uppercase;
       }
 
-.schoolTeacher--responsibilities {
-  line-height:34px ;
-
-  
-li {
-
-  font-family: "PT Sans Narrow", sans-serif;
-  line-height: 34px;
-  font-size: 18px;
-  font-weight: 500;
-  margin-left: 20px;
-
-}
-}
-    }
-
-
-
-//    /*----------------------------------------*/
-//   /* PROGRAM-TOURGUIDE SECTION ENDS   */
-//   /*---------------------------------------- */
-
-//    /*----------------------------------------*/
-//   /*  recent works section                  */
-//   /*---------------------------------------- */
-
-  // .recent-works {
-  //     padding-top: 50px;
-  //   .recent-works__heading {
-  //     font-family: "PT Sans Narrow", sans-serif;
-  //     font-weight: 700;
-  //     font-size: 18px;
-  //     color: var(--secondary-color);
-  //   }
-
-  //   .recent-works__list {
-  //     font-family: "PT Sans Narrow", sans-serif;
-  //     list-style: none;
-  //     font-size: 20px;
-  //     font-weight: 700;
-  //     line-height: 34px;
-  //   }
-  // }
- /*----------------------------------------*/
-  /*  education section                     */
-  /*---------------------------------------- */
-
-
-
-  .projects {
-      margin-top: 50px;
-    .projects__heading {
-      font-family: "Playfair Display", serif;
-      font-weight: 900;
-      font-size: 25px;
-      line-height: 46px;
-
-    }
-
-    .projects__list {
-      li {
-        font-family: "PT Sans Narrow", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
+      .schoolTeacher--responsibilities {
         line-height: 34px;
-        margin-left: 20px;
 
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          line-height: 34px;
+          font-size: 18px;
+          font-weight: 500;
+          margin-left: 20px;
+        }
+      }
+    }
+
+    //    /*----------------------------------------*/
+    //   /* PROGRAM-TOURGUIDE SECTION ENDS   */
+    //   /*---------------------------------------- */
+
+    //    /*----------------------------------------*/
+    //   /*  recent works section                  */
+    //   /*---------------------------------------- */
+
+    // .recent-works {
+    //     padding-top: 50px;
+    //   .recent-works__heading {
+    //     font-family: "PT Sans Narrow", sans-serif;
+    //     font-weight: 700;
+    //     font-size: 18px;
+    //     color: var(--secondary-color);
+    //   }
+
+    //   .recent-works__list {
+    //     font-family: "PT Sans Narrow", sans-serif;
+    //     list-style: none;
+    //     font-size: 20px;
+    //     font-weight: 700;
+    //     line-height: 34px;
+    //   }
+    // }
+    /*----------------------------------------*/
+    /*  education section                     */
+    /*---------------------------------------- */
+
+    .projects {
+      margin-top: 50px;
+      .projects__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 46px;
+      }
+
+      .projects__list {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 34px;
+          margin-left: 20px;
+        }
       }
     }
   }
+  // /*----------------------------------------*/
+  // /*   FOOTER SECTION                        */
+  // /*---------------------------------------- */
 
-}
-// /*----------------------------------------*/
-// /*   FOOTER SECTION                        */
-// /*---------------------------------------- */
+  footer {
+    background: #2f242c;
 
-footer {
-  background: #2f242c;
+    width: 100%;
+    height: 800px;
+    // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
+    display: flex;
+    flex-direction: column;
+    margin-top: 3600px;
 
-  width: 100%;
-  height: 800px;
-  // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
-  display: flex;
-  flex-direction: column;
-margin-top: 3600px;
+    .footer__heading {
+      color: var(--primary-color);
+      font-family: "Playfair Display", serif;
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 82px;
+      margin: auto;
+    }
 
+    .phone {
+      font-family: "PT Sans Narrow", sans-serif;
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 10px;
+      color: var(--primary-color);
+      margin: auto;
+    }
 
+    .social-media__list {
+      list-style: none;
+      display: inline-flex;
+      margin-top: 66px;
+      margin: auto;
 
-
-  .footer__heading {
-    color: var(--primary-color);
-    font-family: "Playfair Display", serif;
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 82px;
-    margin:auto
-  }
-
-  .phone {
- 
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 10px;
-   color: var(--primary-color);
-    margin: auto;
-  }
-
-  .social-media__list {
-    list-style: none;
-    display: inline-flex;
-    margin-top: 66px;
-    margin: auto;
-
-    li {
-      margin: 0 30px;
+      li {
+        margin: 0 30px;
+      }
     }
   }
 }
-
-   }
