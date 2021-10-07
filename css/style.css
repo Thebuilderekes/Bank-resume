@@ -220,7 +220,7 @@ header p {
           justify-content: space-between;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--secondary-color);
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -241,7 +241,7 @@ header p {
           justify-content: space-between;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--secondary-color);
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -262,7 +262,7 @@ header p {
           justify-content: space-between;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--secondary-color);
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -404,10 +404,11 @@ footer .social-media__list li {
   margin: 0 30px;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1000px) {
+@media only screen and (max-width: 1400px) {
   html {
     width: 100%;
     height: 100%;
+    overflow: hidden;
   }
   body {
     width: 100%;
@@ -421,24 +422,24 @@ footer .social-media__list li {
     height: 500px;
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 56%, 0 77%);
             clip-path: polygon(0 0%, 100% 0%, 100% 56%, 0 77%);
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 30px;
   }
   header .cv__section--details {
     float: right;
     padding-top: 30px;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 30px;
   }
-  header .cv__section--details .job__heading {
+  header .job__heading {
     color: var(--primary-color);
     font-size: 36px;
     margin-left: 60px;
   }
-  header .cv__section--details .main__heading {
+  header .main__heading {
     color: var(--main-heading-color);
     font-size: 120px;
     margin-right: 30px;
   }
-  header .cv__section--details p {
+  header p {
     color: var(--primary-color);
     font-size: 1rem;
   }
@@ -532,7 +533,7 @@ footer .social-media__list li {
   .wrapper .certification {
     width: 350px;
     height: 100%;
-    margin-top: -180px;
+    margin-top: -250px;
   }
   .wrapper .certification .certification__heading {
     font-family: "PT Sans Narrow", sans-serif;
@@ -585,7 +586,7 @@ footer .social-media__list li {
             justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--secondary-color);
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -598,12 +599,13 @@ footer .social-media__list li {
   }
   .wrapper .Sifmis__heading {
     line-height: 24px;
+    margin-top: -50px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--secondary-color);
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -622,7 +624,7 @@ footer .social-media__list li {
             justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--secondary-color);
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -653,7 +655,7 @@ footer .social-media__list li {
   .intern .intern--responsibilities li {
     font-family: "PT Sans Narrow", sans-serif;
     line-height: 34px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     margin-left: 20px;
   }
@@ -734,6 +736,338 @@ footer .social-media__list li {
     margin-top: 40px;
     margin: auto;
     color: var(--primary-color);
+  }
+  footer .social-media__list {
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 66px;
+    margin: auto;
+  }
+  footer .social-media__list li {
+    margin: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    width: 100%;
+    height: 2000px;
+    overflow-x: hidden;
+  }
+  body {
+    width: 100%;
+    height: 1500px;
+    overflow-x: hidden;
+  }
+  /*-----------------------------------------*/
+  header {
+    background: var(--secondary-color);
+    width: 100%;
+    height: 500px;
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
+            clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
+  }
+  header .cv__section--details {
+    float: right;
+    margin-left: 150px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 30px;
+  }
+  header .cv__section--details .job__heading {
+    color: var(--primary-color);
+    font-size: 24px;
+  }
+  header .cv__section--details .main__heading {
+    color: var(--main-heading-color);
+    font-size: 90px;
+    font-family: "Playfair Display", serif;
+  }
+  header .cv__section--details p {
+    color: var(--primary-color);
+    font-size: 0.5rem;
+    color: white;
+  }
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 500px;
+        grid-template-columns: 500px;
+    -ms-grid-rows: 240px;
+        grid-template-rows: 240px;
+    grid-gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 1000px;
+        grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
+    padding-bottom: 1000px;
+    /*----------------------------------------*/
+    /* skillset section                         */
+    /*---------------------------------------- */
+    /*----------------------------------------*/
+    /* career traits section                  */
+    /*---------------------------------------- */
+    /*----------------------------------------*/
+    /*program                           */
+    /*---------------------------------------- */
+    /*----------------------------------------*/
+    /* tourguide section                      */
+    /*---------------------------------------- */
+    /*----------------------------------------*/
+    /*  education section                     */
+    /*---------------------------------------- */
+  }
+  .wrapper .skillset {
+    margin-top: 100px;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+  }
+  .wrapper .skillset .skillset__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+  }
+  .wrapper .skillset .skillset__list li {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 34px;
+  }
+  .wrapper .about {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 80px;
+    width: 100%;
+  }
+  .wrapper .about .about__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    padding-bottom: 20px;
+  }
+  .wrapper .experience {
+    margin-top: 20px;
+    -ms-grid-row: 3;
+        grid-row-start: 3;
+  }
+  .wrapper .experience .experience__heading--frontend {
+    font-family: "PT Sans Narrow", sans-serif;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: var(--secondary-color);
+  }
+  .wrapper .experience .experience__heading--frontend .experience__duration {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--secondary-color);
+    font-weight: 700;
+  }
+  .wrapper .experience .experience__paragraph {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+  }
+  .wrapper .certification {
+    width: 350px;
+    height: 100%;
+    margin-top: 50px;
+  }
+  .wrapper .certification .certification__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+  }
+  .wrapper .certification-list {
+    text-decoration: none;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 34px;
+  }
+  .wrapper .career {
+    margin-top: 30px;
+  }
+  .wrapper .career .career__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+  }
+  .wrapper .career .career__list {
+    list-style: none;
+  }
+  .wrapper .career .career__list .career__paragraph1 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .wrapper .career .career__list .career__paragraph1 .bold {
+    font-weight: bold;
+  }
+  .wrapper .career .career__list .career__paragraph {
+    font-family: "PT Sans Narrow", sans-serif;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+  .wrapper .career .career__list .career__paragraph .bold {
+    font-weight: bold;
+  }
+  .wrapper .experience__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .wrapper .program {
+    margin-top: 50px;
+  }
+  .wrapper .program .program__analyst {
+    line-height: 24px;
+    margin-top: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+  }
+  .wrapper .program .program__analyst--responsibilities li {
+    font-family: "PT Sans Narrow", sans-serif;
+    line-height: 34px;
+    font-size: 20px;
+  }
+  .wrapper .Sifmis .Sifmis__heading {
+    width: 100%;
+    line-height: 24px;
+    margin-top: 66px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+  }
+  .wrapper .Sifmis .Sifmis--responsibilities li {
+    font-family: "PT Sans Narrow", sans-serif;
+    line-height: 34px;
+    font-size: 20px;
+  }
+  .wrapper .recent-works {
+    padding-top: 50px;
+  }
+  .wrapper .recent-works .recent-works__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+  }
+  .wrapper .recent-works .recent-works__list {
+    font-family: "PT Sans Narrow", sans-serif;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+  }
+  .wrapper .education {
+    line-height: 46px;
+    padding-top: 50px;
+  }
+  .wrapper .education .education__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .wrapper .education .education__timeline {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .wrapper .education .education__paragraph--1 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+  }
+  .wrapper .education .education__paragraph--2 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--secondary-color);
+    font-weight: 700;
+  }
+  .wrapper .projects {
+    margin-top: 50px;
+  }
+  .wrapper .projects .projects__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .wrapper .projects .projects__list li {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-left: 20px;
+  }
+  footer {
+    background: #2f242c;
+    width: 100%;
+    height: 800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 2700px;
+  }
+  footer .footer__heading {
+    color: var(--primary-color);
+    font-family: "Playfair Display", serif;
+    font-size: 66px;
+    font-weight: 900;
+    line-height: 82px;
+    padding-top: 60px;
+    margin: auto;
+  }
+  footer .phone {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 10px;
+    color: var(--primary-color);
+    margin: auto;
   }
   footer .social-media__list {
     list-style: none;

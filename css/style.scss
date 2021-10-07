@@ -234,7 +234,7 @@ header {
     justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--secondary-color);
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -255,7 +255,7 @@ header {
     justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--secondary-color);
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -279,7 +279,7 @@ header {
     justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--secondary-color);
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -435,19 +435,17 @@ footer {
 //   /*----------------------------------------*/
 //   /*  MEDIA QUERIES                  */
 //   /*---------------------------------------- */
-
-
-@media only screen and (min-width: 769px) and (max-width: 1000px) {
+@media only screen and (max-width: 1400px) {
   html {
     width: 100%;
     height: 100%;
+    overflow: hidden;
   }
   
   body {
     width: 100%;
     height: 100%;
-  
-    overflow-x: hidden;
+  overflow-x: hidden;
   }
   
   /*-----------------------------------------*/
@@ -455,8 +453,7 @@ footer {
   // /*-----------------------------------------*
   
   header {
-    background: var(--secondary-color);
-  
+    background: var(--secondary-color); 
     width: 100%;
     height: 500px;
     clip-path: polygon(0 0%, 100% 0%, 100% 56%, 0 77%);
@@ -464,7 +461,7 @@ footer {
     .cv__section--details {
       float: right;
       padding-top: 30px;
-  
+    }
       .job__heading {
         color: var(--primary-color);
         font-size: 36px;
@@ -484,7 +481,7 @@ footer {
         font-size: 1rem;
       }
     }
-  }
+  
   
   .wrapper {
     display: grid;
@@ -589,7 +586,7 @@ footer {
     .certification {
       width: 350px;
       height: 100%;
-      margin-top: -180px;
+      margin-top: -250px;
   
       .certification__heading {
         font-family: "PT Sans Narrow", sans-serif;
@@ -662,7 +659,7 @@ footer {
       justify-content: space-between;
       font-family: "PT Sans Narrow", sans-serif;
       font-weight: 700;
-      font-size: 18px;
+      font-size: 20px;
       color: var(--secondary-color);
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -679,11 +676,11 @@ footer {
   
     .Sifmis__heading {
       line-height: 24px;
-    
+       margin-top: -50px;
       justify-content: space-between;
       font-family: "PT Sans Narrow", sans-serif;
       font-weight: 700;
-      font-size: 18px;
+      font-size: 20px;
       color: var(--secondary-color);
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -707,7 +704,7 @@ footer {
       justify-content: space-between;
       font-family: "PT Sans Narrow", sans-serif;
       font-weight: 700;
-      font-size: 18px;
+      font-size: 20px;
       color: var(--secondary-color);
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -744,7 +741,7 @@ footer {
       li {
         font-family: "PT Sans Narrow", sans-serif;
         line-height: 34px;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
         margin-left: 20px;
       }
@@ -857,6 +854,430 @@ footer {
     }
   }
 }
+
+
+@media only screen and (max-width: 1000px) {
+  html {
+    width: 100%;
+    height: 2000px;
+    overflow-x: hidden;
+  }
+
+  body {
+    width: 100%;
+    height: 1500px;
+
+    overflow-x: hidden;
+  }
+  /*-----------------------------------------*/
+  //    /*HEADER SECTION*/
+  // /*-----------------------------------------*
+
+  header {
+    background: var(--secondary-color);
+    width: 100%;
+    height: 500px;
+    clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
+
+    .cv__section--details {
+      float: right;
+      // margin-right: 50px;
+      margin-left: 150px;
+
+      .job__heading {
+        color: var(--primary-color);
+        font-size: 24px;
+      }
+      font-family: "PT Sans Narrow", sans-serif;
+      font-size: 30px;
+
+      .main__heading {
+        color: var(--main-heading-color);
+        font-size: 90px;
+        font-family: "Playfair Display", serif;
+      }
+
+      p {
+        color: var(--primary-color);
+        font-size: 0.5rem;
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 240px;
+    grid-gap: 10px;
+    justify-content: center;
+    height: 1000px;
+    grid-template-areas:
+      "gridItem2"
+      "gridItem1"
+      "gridItem3"
+      "gridItem4"
+      "gridItem5"
+      "gridItem6"
+      "gridItem7"
+      "gridItem8";
+    padding-bottom: 1000px;
+
+    /*----------------------------------------*/
+    /* skillset section                         */
+    /*---------------------------------------- */
+    .skillset {
+      margin-top: 100px;
+      grid-row-start: 2;
+      .skillset__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+      }
+
+      .skillset__list {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          letter-spacing: 2px;
+          line-height: 34px;
+        }
+      }
+    }
+
+    // /*----------------------------------------*/
+    //   /* about me section                         */
+    //   /*---------------------------------------- */
+
+    .about {
+      font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 34px;
+      margin-bottom: 80px;
+      width: 100%;
+
+      //     &:after {
+      //       display: block;
+      //       height: 10px;
+      //       width: 100px;
+      //       content: "";
+      //       background-color: var(--primary-color);
+      //       margin-top: 80px;
+      //       margin-bottom: 66px;
+
+      .about__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 46px;
+        padding-bottom: 20px;
+      }
+    }
+
+    // /*----------------------------------------*/
+    //   /* experience section                      */
+    //   /*---------------------------------------- */
+
+    .experience {
+      margin-top: 20px;
+
+      grid-row-start: 3;
+
+    
+
+      .experience__heading--frontend {
+        font-family: "PT Sans Narrow", sans-serif;
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: var(--secondary-color);
+
+        .experience__duration {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: var(--secondary-color);
+          font-weight: 700;
+        }
+      }
+
+      .experience__paragraph {
+        font-family: "PT Sans Narrow", sans-serif;
+        font-size: 20px;
+        line-height: 34px;
+        font-weight: 400;
+      }
+    }
+
+    //  /*----------------------------------------*/
+    //   /* certification section                         */
+    //   /*---------------------------------------- */
+
+    .certification {
+      width: 350px;
+      height: 100%;
+      margin-top: 50px;
+
+      .certification__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 2px;
+      }
+    }
+
+    .certification-list {
+      text-decoration: none;
+      font-family: "PT Sans Narrow", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 1px;
+      line-height: 34px;
+    }
+
+    /*----------------------------------------*/
+    /* career traits section                  */
+    /*---------------------------------------- */
+
+    .career {
+      margin-top: 30px;
+      .career__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        color: var(--secondary-color);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+      }
+
+      .career__list {
+        list-style: none;
+
+        .career__paragraph1 {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-size: 20px;
+          line-height: 34px;
+
+          .bold {
+            font-weight: bold;
+          }
+        }
+
+        .career__paragraph {
+          font-family: "PT Sans Narrow", sans-serif;
+          margin-top: 50px;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 34px;
+
+          .bold {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    //    /*----------------------------------------*/
+    //   /* PROGRAM WRAPPER SECTION        */
+    //   /*---------------------------------------- */
+
+    /*----------------------------------------*/
+    /*program                           */
+    /*---------------------------------------- */
+    .experience__heading {
+      font-family: "Playfair Display", serif;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 46px;
+    }
+
+    .program {
+      margin-top: 50px;
+      .program__analyst {
+        line-height: 24px;
+        margin-top: 20px;
+
+        justify-content: space-between;
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--secondary-color);
+        letter-spacing: 1px;
+      }
+
+      .program__analyst--responsibilities {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          line-height: 34px;
+          font-size: 20px;
+        }
+      }
+    }
+
+    /*----------------------------------------*/
+    /* tourguide section                      */
+    /*---------------------------------------- */
+
+    .Sifmis {
+      .Sifmis__heading {
+        width: 100%;
+        line-height: 24px;
+        margin-top: 66px;
+
+        justify-content: space-between;
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--secondary-color);
+        letter-spacing: 1px;
+      }
+
+      .Sifmis--responsibilities {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          line-height: 34px;
+          font-size: 20px;
+        }
+      }
+    }
+
+    //    /*----------------------------------------*/
+    //   /* PROGRAM-TOURGUIDE SECTION ENDS   */
+    //   /*---------------------------------------- */
+
+    //    /*----------------------------------------*/
+    //   /*  recent works section                  */
+    //   /*---------------------------------------- */
+
+    .recent-works {
+      padding-top: 50px;
+      .recent-works__heading {
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--secondary-color);
+      }
+
+      .recent-works__list {
+        font-family: "PT Sans Narrow", sans-serif;
+        list-style: none;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 34px;
+      }
+    }
+    /*----------------------------------------*/
+    /*  education section                     */
+    /*---------------------------------------- */
+
+    .education {
+      line-height: 46px;
+      padding-top: 50px;
+      .education__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 46px;
+      }
+
+      .education__timeline {
+ 
+        justify-content: space-between;
+      }
+
+      .education__paragraph--1 {
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--secondary-color);
+      }
+
+      .education__paragraph--2 {
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--secondary-color);
+        font-weight: 700;
+      }
+    }
+
+    .projects {
+      margin-top: 50px;
+      .projects__heading {
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 46px;
+      }
+
+      .projects__list {
+        li {
+          font-family: "PT Sans Narrow", sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 34px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+  // /*----------------------------------------*/
+  // /*   FOOTER SECTION                        */
+  // /*---------------------------------------- */
+
+  footer {
+    background: #2f242c;
+
+    width: 100%;
+    height: 800px;
+    // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
+    display: flex;
+    flex-direction: column;
+    margin-top: 2700px;
+
+    .footer__heading {
+      color: var(--primary-color);
+      font-family: "Playfair Display", serif;
+      font-size: 66px;
+      font-weight: 900;
+      line-height: 82px;
+      padding-top: 60px;
+      margin: auto;
+    }
+
+    .phone {
+      font-family: "PT Sans Narrow", sans-serif;
+      font-size: 36px;
+      font-weight: 900;
+      line-height: 10px;
+      color: var(--primary-color);
+      margin: auto;
+    }
+
+    .social-media__list {
+      list-style: none;
+      display: inline-flex;
+      margin-top: 66px;
+      margin: auto;
+
+      li {
+        margin: 0 30px;
+      }
+    }
+  }
+}
+
+
 
 
 @media only screen and (max-width: 768px) {
