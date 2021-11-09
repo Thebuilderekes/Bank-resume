@@ -1771,7 +1771,7 @@ footer .social-media__list li {
 @media only screen and (max-width: 375px) {
   html {
     width: 100%;
-    height: 2000px;
+    height: 100%;
     overflow-x: hidden;
   }
   body {
@@ -1782,7 +1782,8 @@ footer .social-media__list li {
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 500px;
+    height: 700px;
+    overflow: hidden;
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
             clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
   }
@@ -1794,7 +1795,7 @@ footer .social-media__list li {
   }
   header .cv__section--details .job__heading {
     color: var(--primary-color);
-    font-size: 24px;
+    font-size: 20px;
   }
   header .cv__section--details .main__heading {
     color: var(--main-heading-color);
@@ -2046,6 +2047,7 @@ footer .social-media__list li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-top: 3000px;
   }
   footer .footer__heading {
     color: var(--primary-color);
@@ -2078,30 +2080,29 @@ footer .social-media__list li {
 @media only screen and (max-width: 360px) {
   html {
     width: 100%;
-    height: 1500px;
+    height: 100%;
     overflow-x: hidden;
   }
   body {
     width: 100%;
-    height: 1500px;
+    height: 100%;
     overflow-x: hidden;
   }
   /*-----------------------------------------*/
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 100%;
+    height: 600px;
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
             clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
   }
   header .cv__section--details {
-    margin-right: 3px;
     font-family: "PT Sans Narrow", sans-serif;
     font-size: 30px;
   }
   header .cv__section--details .job__heading {
     color: var(--primary-color);
-    font-size: 24px;
+    font-size: 18px;
   }
   header .cv__section--details .main__heading {
     font-size: 50px;
@@ -2374,7 +2375,7 @@ footer .social-media__list li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 3500px;
+    margin-top: 3750px;
   }
   footer .footer__heading {
     color: var(--primary-color);
@@ -2407,19 +2408,19 @@ footer .social-media__list li {
 @media only screen and (max-width: 320px) {
   html {
     width: 100%;
-    height: 1500px;
+    height: 100%;
     overflow-x: hidden;
   }
   body {
     width: 100%;
-    height: 1500px;
+    height: 100%;
     overflow-x: hidden;
   }
   /*-----------------------------------------*/
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 100%;
+    height: 700px;
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
             clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
   }
@@ -2727,6 +2728,10 @@ footer .social-media__list li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-top: 3800px;
   }
   footer .footer__heading {
     color: var(--primary-color);

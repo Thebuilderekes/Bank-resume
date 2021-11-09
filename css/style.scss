@@ -2168,7 +2168,7 @@ footer {
 @media only screen and (max-width: 375px) {
   html {
     width: 100%;
-   height: 2000px;
+   height: 100%;
     overflow-x: hidden;
   }
 
@@ -2185,7 +2185,8 @@ footer {
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 500px;
+    height: 700px;
+    overflow: hidden;
     clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
 
     .cv__section--details {
@@ -2197,7 +2198,7 @@ footer {
 
       .job__heading {
         color: var(--primary-color);
-        font-size: 24px;
+        font-size: 20px;
       }
 
       .main__heading {
@@ -2547,7 +2548,7 @@ footer {
     // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
     display: flex;
     flex-direction: column;
-    // margin-top: 3150px;
+    margin-top: 3000px;
 
     .footer__heading {
       color: var(--primary-color);
@@ -2582,13 +2583,13 @@ footer {
 @media only screen and (max-width: 360px) {
   html {
     width: 100%;
-    height: 1500px;
+    height: 100%;
     overflow-x: hidden;
   }
 
   body {
     width: 100%;
-    height: 1500px;
+    height: 100%;
 
     overflow-x: hidden;
   }
@@ -2599,17 +2600,17 @@ footer {
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 100%;
+    height: 600px;
     clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
 
     .cv__section--details {
-      margin-right: 3px;
+ 
       font-family: "PT Sans Narrow", sans-serif;
       font-size: 30px;
 
       .job__heading {
         color: var(--primary-color);
-        font-size: 24px;
+        font-size: 18px;
       }
 
       .main__heading {
@@ -2959,7 +2960,7 @@ footer {
     // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
     display: flex;
     flex-direction: column;
-    margin-top:  3500px;
+    margin-top:  3750px;
 
     .footer__heading {
       color: var(--primary-color);
@@ -2996,13 +2997,13 @@ footer {
 @media only screen and (max-width: 320px) {
   html {
     width: 100%;
-    height: 1500px;
+    height: 100%;
     overflow-x: hidden;
   }
 
   body {
     width: 100%;
-    height: 1500px;
+    height: 100%;
 
     overflow-x: hidden;
   }
@@ -3013,7 +3014,7 @@ footer {
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 100%;
+    height: 700px;
     clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
 
     .cv__section--details {
@@ -3388,7 +3389,8 @@ footer {
     // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
     display: flex;
     flex-direction: column;
-    // margin-top: 3800px;
+    justify-content: space-evenly;
+    margin-top: 3800px;
 
     .footer__heading {
       color: var(--primary-color);
