@@ -1732,13 +1732,13 @@ footer {
 @media only screen and (max-width: 414px) {
   html {
     width: 100%;
-    height: 1500px;
+    height: 100%;
     overflow-x: hidden;
   }
 
   body {
     width: 100%;
-    height: 1500px;
+    height: 100%;
 
     overflow-x: hidden;
   }
@@ -1749,7 +1749,7 @@ footer {
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 500px;
+    height: 700px;
     clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
 
     .cv__section--details {
@@ -2960,6 +2960,7 @@ footer {
     // clip-path: polygon(0 14%, 100% 0%, 100% 56%, 0 58%);
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin-top:  3750px;
 
     .footer__heading {

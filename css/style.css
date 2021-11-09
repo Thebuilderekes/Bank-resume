@@ -1419,19 +1419,19 @@ footer .social-media__list li {
 @media only screen and (max-width: 414px) {
   html {
     width: 100%;
-    height: 1500px;
+    height: 100%;
     overflow-x: hidden;
   }
   body {
     width: 100%;
-    height: 1500px;
+    height: 100%;
     overflow-x: hidden;
   }
   /*-----------------------------------------*/
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 500px;
+    height: 700px;
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
             clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
   }
@@ -2375,6 +2375,9 @@ footer .social-media__list li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     margin-top: 3750px;
   }
   footer .footer__heading {
