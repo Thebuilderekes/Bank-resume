@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
@@ -33,25 +32,21 @@ header {
   -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 56%, 0 77%);
           clip-path: polygon(0 0%, 100% 0%, 100% 56%, 0 77%);
   font-family: "PT Sans Narrow", sans-serif;
-  font-size: 30px;
 }
-
-header .cv__section--details {
+header .title__section {
   font-family: "PT Sans Narrow", sans-serif;
+  font-size: 30px;
   padding: 30px;
 }
-
-header .job__heading {
-  color: var(--primary-color);
-  font-size: 36px;
-}
-
 header .main__heading {
   color: var(--main-heading-color);
   font-size: 120px;
   margin-right: 30px;
 }
-
+header .main__heading .job__heading {
+  color: var(--primary-color);
+  font-size: 70px;
+}
 header p {
   color: var(--primary-color);
   font-size: 1rem;
@@ -67,17 +62,12 @@ header p {
 .wrapper {
   width: 100%;
   height: 100%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 550px 635px;
-      grid-template-columns: 550px 635px;
-  -ms-grid-rows: 250px 250px 250px 250px;
-      grid-template-rows: 250px 250px 250px 250px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 125px;
-          column-gap: 125px;
+  grid-template-columns: 550px 635px;
+  grid-template-rows: 250px 250px 250px 250px;
+  justify-content: center;
+  -moz-column-gap: 125px;
+       column-gap: 125px;
   row-gap: 100px;
   /*----------------------------------------*/
   /* skillset section                         */
@@ -89,13 +79,9 @@ header p {
   /*program                                             */
   /*---------------------------------------- */
 }
-
 .wrapper .skillset {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
   grid-row: 1/3;
 }
-
 .wrapper .skillset .skillset__heading {
   font-family: "PT Sans Narrow", sans-serif;
   color: var(--secondary-color);
@@ -104,7 +90,6 @@ header p {
   line-height: 24px;
   letter-spacing: 2px;
 }
-
 .wrapper .skillset .skillset__list li {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
@@ -112,25 +97,21 @@ header p {
   line-height: 34px;
   margin-left: 20px;
 }
-
 .wrapper .about {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 34px;
 }
-
 .wrapper .about .about__heading {
   font-family: "Playfair Display", serif;
   font-weight: 900;
   font-size: 36px;
   line-height: 46px;
 }
-
 .wrapper .career {
   margin-top: -100px;
 }
-
 .wrapper .career .career__heading {
   font-family: "PT Sans Narrow", sans-serif;
   color: var(--secondary-color);
@@ -139,21 +120,17 @@ header p {
   line-height: 24px;
   letter-spacing: 2px;
 }
-
 .wrapper .career .career__list {
   list-style: none;
 }
-
 .wrapper .career .career__list .career__paragraph1 {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 20px;
   line-height: 34px;
 }
-
 .wrapper .career .career__list .career__paragraph1 .bold {
   font-weight: bold;
 }
-
 .wrapper .career .career__list .career__paragraph {
   font-family: "PT Sans Narrow", sans-serif;
   margin-top: 50px;
@@ -161,17 +138,14 @@ header p {
   font-weight: 400;
   line-height: 34px;
 }
-
 .wrapper .career .career__list .career__paragraph .bold {
   font-weight: bold;
 }
-
 .wrapper .certification {
   width: 350px;
   height: 100%;
   margin-top: -250px;
 }
-
 .wrapper .certification .certification__heading {
   font-family: "PT Sans Narrow", sans-serif;
   color: var(--secondary-color);
@@ -180,7 +154,6 @@ header p {
   line-height: 24px;
   letter-spacing: 2px;
 }
-
 .wrapper .certification-list {
   text-decoration: none;
   font-family: "PT Sans Narrow", sans-serif;
@@ -190,7 +163,6 @@ header p {
   line-height: 34px;
   margin-left: 20px;
 }
-
 .wrapper .experience__heading {
   font-family: "Playfair Display", serif;
   font-weight: 900;
@@ -198,7 +170,6 @@ header p {
   line-height: 46px;
   padding: 10px 0;
 }
-
 .wrapper .program__analyst {
   line-height: 24px;
   font-family: "PT Sans Narrow", sans-serif;
@@ -208,20 +179,16 @@ header p {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
 .wrapper .program__analyst--responsibilities li {
   font-family: "PT Sans Narrow", sans-serif;
   line-height: 34px;
   font-size: 20px;
   margin-left: 20px;
 }
-
 .wrapper .Sifmis__heading {
   line-height: 24px;
   margin-top: -50px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -229,7 +196,6 @@ header p {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
 .wrapper .Sifmis--responsibilities li {
   font-family: "PT Sans Narrow", sans-serif;
   line-height: 34px;
@@ -240,9 +206,7 @@ header p {
 .schoolTeacher .schoolTeacher__heading {
   line-height: 24px;
   margin-top: 66px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -250,11 +214,9 @@ header p {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
 .schoolTeacher .schoolTeacher--responsibilities {
   line-height: 34px;
 }
-
 .schoolTeacher .schoolTeacher--responsibilities li {
   font-family: "PT Sans Narrow", sans-serif;
   line-height: 34px;
@@ -266,9 +228,7 @@ header p {
 .intern .intern__heading {
   line-height: 24px;
   margin-top: 66px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -276,7 +236,6 @@ header p {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-
 .intern .intern--responsibilities li {
   font-family: "PT Sans Narrow", sans-serif;
   line-height: 34px;
@@ -291,7 +250,6 @@ header p {
   font-size: 36px;
   line-height: 46px;
 }
-
 .projects .projects__list li {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
@@ -306,27 +264,21 @@ header p {
 .education {
   line-height: 46px;
 }
-
 .education .education__heading {
   font-family: "Playfair Display", serif;
   font-weight: 900;
   font-size: 36px;
   line-height: 46px;
 }
-
 .education .education__timeline {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .education .education__paragraph--1 {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: var(--secondary-color);
 }
-
 .education .education__paragraph--2 {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
@@ -344,16 +296,10 @@ footer {
   background: var(--secondary-color);
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-top: 1050px;
 }
-
 footer .footer__heading {
   font-family: "Playfair Display", serif;
   font-size: 66px;
@@ -363,7 +309,6 @@ footer .footer__heading {
   margin: auto;
   color: var(--primary-color);
 }
-
 footer .phone {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 36px;
@@ -373,16 +318,12 @@ footer .phone {
   margin: auto;
   color: var(--primary-color);
 }
-
 footer .social-media__list {
   list-style: none;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   margin-top: 66px;
   margin: auto;
 }
-
 footer .social-media__list li {
   margin: 0 30px;
 }
@@ -406,39 +347,26 @@ footer .social-media__list li {
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
             clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
   }
-  header .cv__section--details {
+  header .title__section {
     font-family: "PT Sans Narrow", sans-serif;
-    float: right;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 30px;
   }
-  header .cv__section--details .job__heading {
-    color: var(--primary-color);
-    font-size: 24px;
-  }
-  header .cv__section--details .main__heading {
+  header .title__section .main__heading {
     color: var(--main-heading-color);
     font-size: 90px;
   }
-  header .cv__section--details p {
+  header .title__section .main__heading .job__heading {
     color: var(--primary-color);
-    font-size: 0.5rem;
-    color: white;
+    font-size: 60px;
   }
   .wrapper {
     width: 100%;
     height: 100%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 500px;
-        grid-template-columns: 500px;
-    -ms-grid-rows: 240px;
-        grid-template-rows: 240px;
+    grid-template-columns: 500px;
+    grid-template-rows: 240px;
     grid-gap: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-        grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
+    justify-content: center;
+    grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
     /*----------------------------------------*/
     /* skillset section                         */
     /*---------------------------------------- */
@@ -457,8 +385,7 @@ footer .social-media__list li {
   }
   .wrapper .skillset {
     margin-top: 100px;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
+    grid-row-start: 2;
   }
   .wrapper .skillset .skillset__heading {
     font-family: "PT Sans Narrow", sans-serif;
@@ -492,8 +419,7 @@ footer .social-media__list li {
   }
   .wrapper .experience {
     margin-top: 20px;
-    -ms-grid-row: 3;
-        grid-row-start: 3;
+    grid-row-start: 3;
   }
   .wrapper .experience .experience__heading--frontend {
     font-family: "PT Sans Narrow", sans-serif;
@@ -583,9 +509,7 @@ footer .social-media__list li {
   .wrapper .program .program__analyst {
     line-height: 24px;
     margin-top: 20px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -601,9 +525,7 @@ footer .social-media__list li {
     width: 100%;
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -626,9 +548,7 @@ footer .social-media__list li {
     line-height: 46px;
   }
   .wrapper .education .education__timeline {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .wrapper .education .education__paragraph--1 {
     font-family: "PT Sans Narrow", sans-serif;
@@ -663,13 +583,8 @@ footer .social-media__list li {
     background: var(--secondary-color);
     width: 100%;
     height: 800px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: 3000px;
   }
   footer .footer__heading {
@@ -691,8 +606,6 @@ footer .social-media__list li {
   }
   footer .social-media__list {
     list-style: none;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-top: 66px;
     margin: auto;
@@ -701,7 +614,6 @@ footer .social-media__list li {
     margin: 0 30px;
   }
 }
-
 @media only screen and (max-width: 768px) {
   html {
     width: 100%;
@@ -721,38 +633,31 @@ footer .social-media__list li {
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
             clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
   }
-  header .cv__section--details {
-    font-family: "PT Sans Narrow", sans-serif;
-    float: right;
+  header .title__section {
     font-family: "PT Sans Narrow", sans-serif;
     font-size: 30px;
   }
-  header .cv__section--details .job__heading {
-    color: var(--primary-color);
-    font-size: 24px;
-  }
-  header .cv__section--details .main__heading {
+  header .title__section .main__heading {
     color: var(--main-heading-color);
     font-size: 90px;
     font-family: "PT Sans Narrow", sans-serif;
   }
-  header .cv__section--details p {
+  header .title__section .main__heading .job__heading {
+    color: var(--primary-color);
+    font-size: 40px;
+  }
+  header .title__section p {
     color: var(--primary-color);
     font-size: 0.5rem;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   .wrapper {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 500px;
-        grid-template-columns: 500px;
-    -ms-grid-rows: 240px;
-        grid-template-rows: 240px;
+    grid-template-columns: 500px;
+    grid-template-rows: 240px;
     grid-gap: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-        grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
+    justify-content: center;
+    grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
     /*----------------------------------------*/
     /* skillset section                         */
     /*---------------------------------------- */
@@ -771,8 +676,7 @@ footer .social-media__list li {
   }
   .wrapper .skillset {
     margin-top: 100px;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
+    grid-row-start: 2;
   }
   .wrapper .skillset .skillset__heading {
     font-family: "PT Sans Narrow", sans-serif;
@@ -806,8 +710,7 @@ footer .social-media__list li {
   }
   .wrapper .experience {
     margin-top: 20px;
-    -ms-grid-row: 3;
-        grid-row-start: 3;
+    grid-row-start: 3;
   }
   .wrapper .experience .experience__heading--frontend {
     font-family: "PT Sans Narrow", sans-serif;
@@ -897,9 +800,7 @@ footer .social-media__list li {
   .wrapper .program .program__analyst {
     line-height: 24px;
     margin-top: 20px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -915,9 +816,7 @@ footer .social-media__list li {
     width: 100%;
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -940,9 +839,7 @@ footer .social-media__list li {
     line-height: 46px;
   }
   .wrapper .education .education__timeline {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .wrapper .education .education__paragraph--1 {
     font-family: "PT Sans Narrow", sans-serif;
@@ -977,13 +874,8 @@ footer .social-media__list li {
     background: var(--secondary-color);
     width: 100%;
     height: 800px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: 3100px;
   }
   footer .footer__heading {
@@ -1005,8 +897,6 @@ footer .social-media__list li {
   }
   footer .social-media__list {
     list-style: none;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-top: 66px;
     margin: auto;
@@ -1015,8 +905,7 @@ footer .social-media__list li {
     margin: 0 30px;
   }
 }
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
   html {
     width: 100%;
     height: 100%;
@@ -1031,44 +920,37 @@ footer .social-media__list li {
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 500px;
+    height: 300px;
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
             clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
   }
-  header .cv__section--details {
-    font-family: "PT Sans Narrow", sans-serif;
+  header .title__section {
     font-family: "PT Sans Narrow", sans-serif;
   }
-  header .cv__section--details .job__heading {
+  header .title__section .main__heading {
+    color: var(--main-heading-color);
+    font-size: 60px;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+  header .title__section .main__heading .job__heading {
     color: var(--primary-color);
-    font-size: 18px;
+    font-size: 40px;
     text-align: center;
   }
-  header .cv__section--details .main__heading {
-    color: var(--main-heading-color);
-    font-size: 70px;
-    font-family: "PT Sans Narrow", sans-serif;
-  }
-  header .cv__section--details p {
+  header .title__section p {
     color: var(--primary-color);
     font-size: 0.5rem;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   .wrapper {
     width: 100%;
     height: 100%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 400px;
-        grid-template-columns: 400px;
-    -ms-grid-rows: 240px;
-        grid-template-rows: 240px;
+    grid-template-columns: 400px;
+    grid-template-rows: 240px;
     grid-gap: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-        grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
-    padding-bottom: 1000px;
+    justify-content: center;
+    grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
     /*----------------------------------------*/
     /* skillset section                         */
     /*---------------------------------------- */
@@ -1086,8 +968,7 @@ footer .social-media__list li {
     margin-top: 100px;
     margin-right: 20px;
     margin-left: 20px;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
+    grid-row-start: 2;
   }
   .wrapper .skillset .skillset__heading {
     font-family: "PT Sans Narrow", sans-serif;
@@ -1126,8 +1007,7 @@ footer .social-media__list li {
   }
   .wrapper .experience {
     margin-top: 20px;
-    -ms-grid-row: 3;
-        grid-row-start: 3;
+    grid-row-start: 3;
   }
   .wrapper .experience .experience__heading--frontend {
     font-family: "PT Sans Narrow", sans-serif;
@@ -1223,9 +1103,7 @@ footer .social-media__list li {
   .wrapper .program .program__analyst {
     line-height: 24px;
     margin-top: 20px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -1245,9 +1123,7 @@ footer .social-media__list li {
     width: 100%;
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -1266,9 +1142,7 @@ footer .social-media__list li {
   .wrapper .schoolTeacher .schoolTeacher__heading {
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -1293,9 +1167,7 @@ footer .social-media__list li {
   .wrapper .intern .intern__heading {
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -1332,14 +1204,9 @@ footer .social-media__list li {
     background: var(--secondary-color);
     width: 100%;
     height: 800px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-top: 3200px;
+    flex-direction: column;
+    margin-top: 3500px;
   }
   footer .footer__heading {
     color: var(--primary-color);
@@ -1359,8 +1226,6 @@ footer .social-media__list li {
   }
   footer .social-media__list {
     list-style: none;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-top: 66px;
     margin: auto;
@@ -1369,7 +1234,28 @@ footer .social-media__list li {
     margin: 0 30px;
   }
 }
-
+@media only screen and (max-width: 550px) {
+  header {
+    background: var(--secondary-color);
+    width: 100%;
+    height: 300px;
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
+            clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
+  }
+  header .title__section {
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+  header .title__section .main__heading {
+    color: var(--main-heading-color);
+    font-size: 40px;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+  header .title__section .main__heading .job__heading {
+    color: var(--primary-color);
+    font-size: 30px;
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 414px) {
   html {
     width: 100%;
@@ -1385,44 +1271,34 @@ footer .social-media__list li {
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 700px;
+    height: 300px;
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
             clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
   }
-  header .cv__section--details {
+  header .title__section {
     font-family: "PT Sans Narrow", sans-serif;
-    float: right;
-    margin-left: 150px;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 30px;
   }
-  header .cv__section--details .job__heading {
+  header .title__section .main__heading {
+    color: var(--main-heading-color);
+    font-size: 40px;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+  header .title__section .main__heading .job__heading {
     color: var(--primary-color);
     font-size: 24px;
   }
-  header .cv__section--details .main__heading {
-    color: var(--main-heading-color);
-    font-size: 80px;
-    font-family: "PT Sans Narrow", sans-serif;
-    margin: 10px;
-  }
-  header .cv__section--details p {
+  header .title__section p {
     color: var(--primary-color);
     font-size: 0.5rem;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   .wrapper {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 400px;
-        grid-template-columns: 400px;
-    -ms-grid-rows: 240px;
-        grid-template-rows: 240px;
+    grid-template-columns: 400px;
+    grid-template-rows: 240px;
     grid-gap: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-        grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
+    justify-content: center;
+    grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
     /*----------------------------------------*/
     /* skillset section                         */
     /*---------------------------------------- */
@@ -1440,8 +1316,7 @@ footer .social-media__list li {
     margin-top: 100px;
     margin-right: 20px;
     margin-left: 20px;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
+    grid-row-start: 2;
   }
   .wrapper .skillset .skillset__heading {
     font-family: "PT Sans Narrow", sans-serif;
@@ -1480,8 +1355,7 @@ footer .social-media__list li {
   }
   .wrapper .experience {
     margin-top: 20px;
-    -ms-grid-row: 3;
-        grid-row-start: 3;
+    grid-row-start: 3;
   }
   .wrapper .experience .experience__heading--frontend {
     font-family: "PT Sans Narrow", sans-serif;
@@ -1577,9 +1451,7 @@ footer .social-media__list li {
   .wrapper .program .program__analyst {
     line-height: 24px;
     margin-top: 20px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -1599,9 +1471,7 @@ footer .social-media__list li {
     width: 100%;
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -1620,9 +1490,7 @@ footer .social-media__list li {
   .wrapper .schoolTeacher .schoolTeacher__heading {
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -1647,9 +1515,7 @@ footer .social-media__list li {
   .wrapper .intern .intern__heading {
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -1686,13 +1552,8 @@ footer .social-media__list li {
     background: var(--secondary-color);
     width: 100%;
     height: 800px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   footer .footer__heading {
     color: var(--primary-color);
@@ -1712,8 +1573,6 @@ footer .social-media__list li {
   }
   footer .social-media__list {
     list-style: none;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-top: 66px;
     margin: auto;
@@ -1722,7 +1581,6 @@ footer .social-media__list li {
     margin: 0 30px;
   }
 }
-
 @media only screen and (max-width: 375px) {
   html {
     width: 100%;
@@ -1737,44 +1595,37 @@ footer .social-media__list li {
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 700px;
+    height: 300px;
     overflow: hidden;
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
             clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
   }
-  header .cv__section--details {
+  header .title__section {
     font-family: "PT Sans Narrow", sans-serif;
-    float: right;
-    margin-left: 30px;
     font-size: 30px;
   }
-  header .cv__section--details .job__heading {
-    color: var(--primary-color);
-    font-size: 20px;
-  }
-  header .cv__section--details .main__heading {
+  header .title__section .main__heading {
     color: var(--main-heading-color);
-    font-size: 50px;
+    font-size: 30px;
     font-family: "PT Sans Narrow", sans-serif;
   }
-  header .cv__section--details p {
+  header .title__section .main__heading .job__heading {
+    color: var(--primary-color);
+    font-size: 28px;
+  }
+  header .title__section p {
     color: var(--primary-color);
     font-size: 0.5rem;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   /*-----------------------------------------*/
   .wrapper {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 360px;
-        grid-template-columns: 360px;
-    -ms-grid-rows: 240px;
-        grid-template-rows: 240px;
+    grid-template-columns: 360px;
+    grid-template-rows: 240px;
     grid-gap: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-        grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
+    justify-content: center;
+    grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
     padding-left: 20px;
     padding-right: 20px;
     /*----------------------------------------*/
@@ -1801,8 +1652,7 @@ footer .social-media__list li {
   }
   .wrapper .skillset {
     margin-top: 100px;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
+    grid-row-start: 2;
   }
   .wrapper .skillset .skillset__heading {
     font-family: "PT Sans Narrow", sans-serif;
@@ -1900,9 +1750,7 @@ footer .social-media__list li {
   .wrapper .program .program__analyst {
     line-height: 24px;
     margin-top: 20px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -1918,9 +1766,7 @@ footer .social-media__list li {
     width: 100%;
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -1935,9 +1781,7 @@ footer .social-media__list li {
   .wrapper .schoolTeacher .schoolTeacher__heading {
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -1975,13 +1819,8 @@ footer .social-media__list li {
     background: var(--secondary-color);
     width: 100%;
     height: 1500px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: 3000px;
   }
   footer .footer__heading {
@@ -2001,8 +1840,6 @@ footer .social-media__list li {
   }
   footer .social-media__list {
     list-style: none;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-top: 66px;
     margin: auto;
@@ -2011,7 +1848,6 @@ footer .social-media__list li {
     margin: 0 30px;
   }
 }
-
 @media only screen and (max-width: 360px) {
   html {
     width: 100%;
@@ -2027,39 +1863,33 @@ footer .social-media__list li {
   header {
     background: var(--secondary-color);
     width: 100%;
-    height: 600px;
+    height: 300px;
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
             clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
   }
-  header .cv__section--details {
+  header .title__section {
     font-family: "PT Sans Narrow", sans-serif;
+  }
+  header .title__section .main__heading {
     font-size: 30px;
-  }
-  header .cv__section--details .job__heading {
-    color: var(--primary-color);
-    font-size: 18px;
-  }
-  header .cv__section--details .main__heading {
-    font-size: 50px;
     font-family: "PT Sans Narrow", sans-serif;
   }
-  header .cv__section--details p {
+  header .title__section .main__heading .job__heading {
+    color: var(--primary-color);
+    font-size: 24px;
+  }
+  header .title__section p {
     color: var(--primary-color);
     font-size: 0.5rem;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   .wrapper {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 320px;
-        grid-template-columns: 320px;
-    -ms-grid-rows: 240px;
-        grid-template-rows: 240px;
+    grid-template-columns: 320px;
+    grid-template-rows: 240px;
     grid-gap: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-        grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
+    justify-content: center;
+    grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
     padding-left: 10px;
     padding-right: 10px;
     /*----------------------------------------*/
@@ -2077,8 +1907,7 @@ footer .social-media__list li {
   }
   .wrapper .skillset {
     margin-top: 100px;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
+    grid-row-start: 2;
   }
   .wrapper .skillset .skillset__heading {
     font-family: "PT Sans Narrow", sans-serif;
@@ -2177,9 +2006,7 @@ footer .social-media__list li {
   .wrapper .program .program__analyst {
     line-height: 24px;
     margin-top: 20px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -2195,9 +2022,7 @@ footer .social-media__list li {
     width: 100%;
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -2212,9 +2037,7 @@ footer .social-media__list li {
   .wrapper .schoolTeacher .schoolTeacher__heading {
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -2239,9 +2062,7 @@ footer .social-media__list li {
   .wrapper .intern .intern__heading {
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -2276,16 +2097,9 @@ footer .social-media__list li {
     background: var(--secondary-color);
     width: 100%;
     height: 800px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin-top: 3750px;
   }
   footer .footer__heading {
@@ -2305,8 +2119,6 @@ footer .social-media__list li {
   }
   footer .social-media__list {
     list-style: none;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-top: 66px;
     margin: auto;
@@ -2315,7 +2127,6 @@ footer .social-media__list li {
     margin: 0 30px;
   }
 }
-
 @media only screen and (max-width: 320px) {
   html {
     width: 100%;
@@ -2335,37 +2146,32 @@ footer .social-media__list li {
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
             clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
   }
-  header .cv__section--details {
+  header .title__section {
     margin-right: 3px;
     font-family: "PT Sans Narrow", sans-serif;
     font-size: 30px;
   }
-  header .cv__section--details .job__heading {
+  header .title__section .job__heading {
     color: var(--primary-color);
     font-size: 24px;
   }
-  header .cv__section--details .main__heading {
+  header .title__section .main__heading {
     color: var(--main-heading-color);
     font-size: 50px;
     font-family: "PT Sans Narrow", sans-serif;
   }
-  header .cv__section--details p {
+  header .title__section p {
     color: var(--primary-color);
     font-size: 0.5rem;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   .wrapper {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 320px;
-        grid-template-columns: 320px;
-    -ms-grid-rows: 240px;
-        grid-template-rows: 240px;
+    grid-template-columns: 320px;
+    grid-template-rows: 240px;
     grid-gap: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-        grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
+    justify-content: center;
+    grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
     padding-left: 10px;
     padding-right: 10px;
     /*----------------------------------------*/
@@ -2385,8 +2191,7 @@ footer .social-media__list li {
     margin-top: 100px;
     margin-right: 20px;
     margin-left: 20px;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
+    grid-row-start: 2;
   }
   .wrapper .skillset .skillset__heading {
     font-family: "PT Sans Narrow", sans-serif;
@@ -2496,9 +2301,7 @@ footer .social-media__list li {
   .wrapper .program .program__analyst {
     line-height: 24px;
     margin-top: 20px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -2518,9 +2321,7 @@ footer .social-media__list li {
     width: 100%;
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -2539,9 +2340,7 @@ footer .social-media__list li {
   .wrapper .schoolTeacher .schoolTeacher__heading {
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -2566,9 +2365,7 @@ footer .social-media__list li {
   .wrapper .intern .intern__heading {
     line-height: 24px;
     margin-top: 66px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -2605,16 +2402,9 @@ footer .social-media__list li {
     background: var(--secondary-color);
     width: 100%;
     height: 800px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin-top: 3850px;
   }
   footer .footer__heading {
@@ -2635,8 +2425,6 @@ footer .social-media__list li {
   }
   footer .social-media__list {
     list-style: none;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-top: 10px;
     margin: auto;
@@ -2644,5 +2432,4 @@ footer .social-media__list li {
   footer .social-media__list li {
     margin: 0 20px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

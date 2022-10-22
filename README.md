@@ -1,4 +1,4 @@
-
+This idea behind this project is to design a webaite to look like a the resume of the owner. CSS grid was used tor the layout on both mobile and desktop.
 
 
 
