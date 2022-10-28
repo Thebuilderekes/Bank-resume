@@ -13,7 +13,7 @@
 
 html {
   width: 100%;
-  height: 100%;
+  display: flex;
   overflow: hidden;
 }
 
@@ -2100,7 +2100,7 @@ footer .social-media__list li {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: 3750px;
+    margin-top: 4080px;
   }
   footer .footer__heading {
     color: var(--primary-color);
