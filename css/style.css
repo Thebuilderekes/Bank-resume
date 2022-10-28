@@ -1821,7 +1821,7 @@ footer .social-media__list li {
     height: 1500px;
     display: flex;
     flex-direction: column;
-    margin-top: 3000px;
+    margin-top: 3500px;
   }
   footer .footer__heading {
     color: var(--primary-color);
