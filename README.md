@@ -2,7 +2,7 @@
 
 <!-- About the Project -->
 ## :star2: About the Project
-This side project was designed to look like a resume. The layout was made using HTML, SCSS and CSS grid.
+This website layout was designed to look like a resume. The layout was made using HTML, SCSS and CSS grid.
 
 <!-- Screenshots -->
 ### :camera: Screenshots
@@ -27,7 +27,7 @@ This side project was designed to look like a resume. The layout was made using 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://www.github.com">Typescript</a></li>
+ <li><a href="https://www.github.com">Github pages</a></li>
   </ul>
 </details>
 
@@ -36,9 +36,9 @@ This side project was designed to look like a resume. The layout was made using 
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) ##ffffff |
+| Primary Color | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
 | Secondary Color | ![#890620](https://via.placeholder.com/10/890620?text=+) #890620 |
-| Accent Color | ![#fab0b0](https://via.placeholder.com/10/ab0b0?text=+) #fab0b0 |
+| Accent Color | ![#FAB0B0](https://via.placeholder.com/10/FAB0B0?text=+) #FAB0B0 |
 | Text Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 
 
