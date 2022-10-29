@@ -38,7 +38,7 @@ This side project was designed to look like a resume. The layout was made using 
 | ----------------- | ------------------------------------------------------------------ |
 | Primary Color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) ##ffffff |
 | Secondary Color | ![#890620](https://via.placeholder.com/10/890620?text=+) #890620 |
-| Accent Color | ![#fab0b0](https://via.placeholder.com/10/#ab0b0?text=+) #fab0b0 |
+| Accent Color | ![#fab0b0](https://via.placeholder.com/10/ab0b0?text=+) #fab0b0 |
 | Text Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 
 
