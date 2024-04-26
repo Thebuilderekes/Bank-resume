@@ -28,8 +28,7 @@ header {
   background: var(--secondary-color);
   width: 100%;
   height: 600px;
-  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 56%, 0 77%);
-          clip-path: polygon(0 0%, 100% 0%, 100% 56%, 0 77%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 56%, 0 77%);
   font-family: "PT Sans Narrow", sans-serif;
 }
 header .title__section {
@@ -64,8 +63,7 @@ header p {
   grid-template-columns: 550px 635px;
   grid-template-rows: 250px 250px 250px 250px;
   justify-content: center;
-  -moz-column-gap: 125px;
-       column-gap: 125px;
+  column-gap: 125px;
   row-gap: 100px;
   /*----------------------------------------*/
   /* skillset section                         */
@@ -333,8 +331,7 @@ footer .social-media__list li {
     background: var(--secondary-color);
     width: 100%;
     height: 500px;
-    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
-            clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
   }
   header .title__section .main__heading {
     color: var(--main-heading-color);
@@ -861,7 +858,7 @@ footer .social-media__list li {
   .wrapper {
     display: grid;
     grid-template-columns: 400px;
-    grid-template-rows: 240px;
+    grid-template-rows: 300px;
     grid-gap: 10px;
     justify-content: center;
     grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
@@ -948,7 +945,7 @@ footer .social-media__list li {
   .wrapper {
     display: grid;
     grid-template-columns: 360px;
-    grid-template-rows: 240px;
+    grid-template-rows: 300px;
     grid-gap: 10px;
     justify-content: center;
     grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
@@ -1111,7 +1108,7 @@ footer .social-media__list li {
   .wrapper {
     display: grid;
     grid-template-columns: 320px;
-    grid-template-rows: 240px;
+    grid-template-rows: 300px;
     grid-gap: 10px;
     justify-content: center;
     grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
@@ -1437,4 +1434,6 @@ footer .social-media__list li {
     flex-direction: column;
     justify-content: space-evenly;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
