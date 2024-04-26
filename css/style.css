@@ -92,7 +92,7 @@ header p {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 34px;
+  line-height: 1.5;
   margin-left: 20px;
 }
 .wrapper .about {
@@ -120,14 +120,6 @@ header p {
 }
 .wrapper .career .career__list {
   list-style: none;
-}
-.wrapper .career .career__list .career__paragraph1 {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 20px;
-  line-height: 34px;
-}
-.wrapper .career .career__list .career__paragraph1 .bold {
-  font-weight: bold;
 }
 .wrapper .career .career__list .career__paragraph {
   font-family: "PT Sans Narrow", sans-serif;
@@ -344,9 +336,6 @@ footer .social-media__list li {
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
             clip-path: polygon(0 0%, 100% 0%, 100% 80%, 0 95%);
   }
-  header .title__section {
-    font-family: "PT Sans Narrow", sans-serif;
-  }
   header .title__section .main__heading {
     color: var(--main-heading-color);
     font-size: 90px;
@@ -383,18 +372,7 @@ footer .social-media__list li {
     margin-top: 100px;
     grid-row-start: 2;
   }
-  .wrapper .skillset .skillset__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 2px;
-  }
   .wrapper .skillset .skillset__list li {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
     letter-spacing: 2px;
     line-height: 34px;
   }
@@ -405,13 +383,6 @@ footer .social-media__list li {
     line-height: 34px;
     margin-bottom: 80px;
     width: 100%;
-  }
-  .wrapper .about .about__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 46px;
-    padding-bottom: 20px;
   }
   .wrapper .experience {
     margin-top: 20px;
@@ -443,14 +414,6 @@ footer .social-media__list li {
     width: 350px;
     margin-top: 50px;
   }
-  .wrapper .certification .certification__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 2px;
-  }
   .wrapper .certification-list {
     text-decoration: none;
     font-family: "PT Sans Narrow", sans-serif;
@@ -461,36 +424,6 @@ footer .social-media__list li {
   }
   .wrapper .career {
     margin-top: 30px;
-  }
-  .wrapper .career .career__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 2px;
-    margin-top: 20px;
-  }
-  .wrapper .career .career__list {
-    list-style: none;
-  }
-  .wrapper .career .career__list .career__paragraph1 {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 20px;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph1 .bold {
-    font-weight: bold;
-  }
-  .wrapper .career .career__list .career__paragraph {
-    font-family: "PT Sans Narrow", sans-serif;
-    margin-top: 50px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph .bold {
-    font-weight: bold;
   }
   .wrapper .experience__heading {
     font-family: "Playfair Display", serif;
@@ -542,38 +475,6 @@ footer .social-media__list li {
     font-size: 36px;
     line-height: 46px;
   }
-  .wrapper .education .education__timeline {
-    justify-content: space-between;
-  }
-  .wrapper .education .education__paragraph--1 {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--secondary-color);
-  }
-  .wrapper .education .education__paragraph--2 {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: var(--secondary-color);
-    font-weight: 700;
-  }
-  .wrapper .projects {
-    margin-top: 50px;
-  }
-  .wrapper .projects .projects__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 46px;
-  }
-  .wrapper .projects .projects__list li {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    margin-left: 20px;
-  }
   footer {
     background: var(--secondary-color);
     width: 100%;
@@ -618,13 +519,7 @@ footer .social-media__list li {
     overflow-x: hidden;
   }
   /*-----------------------------------------*/
-  header {
-    background: var(--secondary-color);
-    width: 100%;
-    height: 500px;
-  }
   header .title__section {
-    font-family: "PT Sans Narrow", sans-serif;
     font-size: 30px;
   }
   header .title__section .main__heading {
@@ -649,9 +544,6 @@ footer .social-media__list li {
     justify-content: center;
     grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
     /*----------------------------------------*/
-    /* career traits section                  */
-    /*---------------------------------------- */
-    /*----------------------------------------*/
     /*program                           */
     /*---------------------------------------- */
     /*----------------------------------------*/
@@ -664,47 +556,6 @@ footer .social-media__list li {
   .wrapper .certification {
     width: 350px;
     margin-top: 50px;
-  }
-  .wrapper .certification .certification__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 2px;
-  }
-  .wrapper .career {
-    margin-top: 30px;
-  }
-  .wrapper .career .career__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 2px;
-    margin-top: 20px;
-  }
-  .wrapper .career .career__list {
-    list-style: none;
-  }
-  .wrapper .career .career__list .career__paragraph1 {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 20px;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph1 .bold {
-    font-weight: bold;
-  }
-  .wrapper .career .career__list .career__paragraph {
-    font-family: "PT Sans Narrow", sans-serif;
-    margin-top: 50px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph .bold {
-    font-weight: bold;
   }
   .wrapper .program {
     margin-top: 50px;
@@ -739,48 +590,6 @@ footer .social-media__list li {
     font-family: "PT Sans Narrow", sans-serif;
     line-height: 34px;
     font-size: 20px;
-  }
-  .wrapper .education {
-    line-height: 46px;
-    padding-top: 50px;
-  }
-  .wrapper .education .education__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 46px;
-  }
-  .wrapper .education .education__timeline {
-    justify-content: space-between;
-  }
-  .wrapper .education .education__paragraph--1 {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--secondary-color);
-  }
-  .wrapper .education .education__paragraph--2 {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: var(--secondary-color);
-    font-weight: 700;
-  }
-  .wrapper .projects {
-    margin-top: 50px;
-  }
-  .wrapper .projects .projects__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 46px;
-  }
-  .wrapper .projects .projects__list li {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    margin-left: 20px;
   }
   footer {
     background: var(--secondary-color);
@@ -825,14 +634,6 @@ footer .social-media__list li {
     width: 100%;
   }
   /*-----------------------------------------*/
-  header {
-    background: var(--secondary-color);
-    width: 100%;
-    height: 300px;
-  }
-  header .title__section {
-    font-family: "PT Sans Narrow", sans-serif;
-  }
   header .title__section .main__heading {
     color: var(--main-heading-color);
     font-size: 60px;
@@ -870,18 +671,9 @@ footer .social-media__list li {
     /*---------------------------------------- */
   }
   .wrapper .skillset {
-    margin-top: 100px;
     margin-right: 20px;
     margin-left: 20px;
     grid-row-start: 2;
-  }
-  .wrapper .skillset .skillset__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 2px;
   }
   .wrapper .skillset .skillset__list li {
     font-family: "PT Sans Narrow", sans-serif;
@@ -903,61 +695,16 @@ footer .social-media__list li {
   .wrapper .about p {
     margin-right: 30px;
   }
-  .wrapper .about .about__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 46px;
-    padding-bottom: 20px;
-  }
   .wrapper .certification {
     margin-right: 20px;
     margin-left: 20px;
     width: 350px;
     margin-top: 50px;
   }
-  .wrapper .certification .certification__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 2px;
-  }
   .wrapper .career {
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 30px;
-  }
-  .wrapper .career .career__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 2px;
-    margin-top: 20px;
-  }
-  .wrapper .career .career__list {
-    list-style: none;
-  }
-  .wrapper .career .career__list .career__paragraph1 {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 20px;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph1 .bold {
-    font-weight: bold;
-  }
-  .wrapper .career .career__list .career__paragraph {
-    font-family: "PT Sans Narrow", sans-serif;
-    margin-top: 50px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph .bold {
-    font-weight: bold;
   }
   .wrapper .program {
     margin-right: 20px;
@@ -1046,24 +793,6 @@ footer .social-media__list li {
     font-weight: 500;
     margin-left: 20px;
   }
-  .wrapper .projects {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 50px;
-  }
-  .wrapper .projects .projects__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 25px;
-    line-height: 46px;
-  }
-  .wrapper .projects .projects__list li {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 34px;
-    margin-left: 20px;
-  }
   footer {
     background: var(--secondary-color);
     width: 100%;
@@ -1098,14 +827,6 @@ footer .social-media__list li {
   }
 }
 @media (max-width: 550px) {
-  header {
-    background: var(--secondary-color);
-    width: 100%;
-    height: 300px;
-  }
-  header .title__section {
-    font-family: "PT Sans Narrow", sans-serif;
-  }
   header .title__section .main__heading {
     color: var(--main-heading-color);
     font-size: 40px;
@@ -1123,14 +844,6 @@ footer .social-media__list li {
     overflow-x: hidden;
   }
   /*-----------------------------------------*/
-  header {
-    background: var(--secondary-color);
-    width: 100%;
-    height: 300px;
-  }
-  header .title__section {
-    font-family: "PT Sans Narrow", sans-serif;
-  }
   header .title__section .main__heading {
     color: var(--main-heading-color);
     font-size: 40px;
@@ -1156,20 +869,6 @@ footer .social-media__list li {
     /* skillset section                         */
     /*---------------------------------------- */
   }
-  .wrapper .skillset {
-    margin-top: 100px;
-    margin-right: 20px;
-    margin-left: 20px;
-    grid-row-start: 2;
-  }
-  .wrapper .skillset .skillset__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 2px;
-  }
   .wrapper .skillset .skillset__list li {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
@@ -1189,31 +888,6 @@ footer .social-media__list li {
   }
   .wrapper .about p {
     margin-right: 30px;
-  }
-  .wrapper .about .about__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 46px;
-    padding-bottom: 20px;
-  }
-  .wrapper .projects {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 50px;
-  }
-  .wrapper .projects .projects__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 25px;
-    line-height: 46px;
-  }
-  .wrapper .projects .projects__list li {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 34px;
-    margin-left: 20px;
   }
   footer {
     background: var(--secondary-color);
@@ -1251,15 +925,9 @@ footer .social-media__list li {
 @media (max-width: 375px) {
   /*-----------------------------------------*/
   header {
-    background: var(--secondary-color);
-    width: 100%;
-    height: 300px;
     overflow: hidden;
-    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
-            clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
   }
   header .title__section {
-    font-family: "PT Sans Narrow", sans-serif;
     font-size: 30px;
   }
   header .title__section .main__heading {
@@ -1290,9 +958,6 @@ footer .social-media__list li {
     /* skillset section                         */
     /*---------------------------------------- */
     /*----------------------------------------*/
-    /* career traits section                  */
-    /*---------------------------------------- */
-    /*----------------------------------------*/
     /*experience section                         */
     /*---------------------------------------- */
     /*----------------------------------------*/
@@ -1309,23 +974,7 @@ footer .social-media__list li {
     /*---------------------------------------- */
   }
   .wrapper .skillset {
-    margin-top: 100px;
     grid-row-start: 2;
-  }
-  .wrapper .skillset .skillset__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 2px;
-  }
-  .wrapper .skillset .skillset__list li {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 2px;
-    line-height: 34px;
   }
   .wrapper .about {
     font-family: "PT Sans Narrow", sans-serif;
@@ -1336,23 +985,12 @@ footer .social-media__list li {
     width: 100%;
   }
   .wrapper .about .about__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
     font-size: 30px;
-    line-height: 46px;
     padding-bottom: 20px;
   }
   .wrapper .certification {
     width: 350px;
     margin-top: 50px;
-  }
-  .wrapper .certification .certification__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 2px;
   }
   .wrapper .certification-list {
     text-decoration: none;
@@ -1361,39 +999,6 @@ footer .social-media__list li {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 34px;
-  }
-  .wrapper .career {
-    margin-top: 30px;
-  }
-  .wrapper .career .career__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 2px;
-    margin-top: 20px;
-  }
-  .wrapper .career .career__list {
-    list-style: none;
-  }
-  .wrapper .career .career__list .career__paragraph1 {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 20px;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph1 .bold {
-    font-weight: bold;
-  }
-  .wrapper .career .career__list .career__paragraph {
-    font-family: "PT Sans Narrow", sans-serif;
-    margin-top: 50px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph .bold {
-    font-weight: bold;
   }
   .wrapper .program {
     margin-top: 50px;
@@ -1453,18 +1058,8 @@ footer .social-media__list li {
   .wrapper .projects {
     margin-top: 50px;
   }
-  .wrapper .projects .projects__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 25px;
-    line-height: 46px;
-  }
   .wrapper .projects .projects__list li {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 34px;
-    margin-left: 20px;
   }
   footer {
     background: var(--secondary-color);
@@ -1500,16 +1095,6 @@ footer .social-media__list li {
 }
 @media (max-width: 360px) {
   /*-----------------------------------------*/
-  header {
-    background: var(--secondary-color);
-    width: 100%;
-    height: 300px;
-    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
-            clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
-  }
-  header .title__section {
-    font-family: "PT Sans Narrow", sans-serif;
-  }
   header .title__section .main__heading {
     font-size: 30px;
     font-family: "PT Sans Narrow", sans-serif;
@@ -1536,9 +1121,6 @@ footer .social-media__list li {
     /* skillset section                         */
     /*---------------------------------------- */
     /*----------------------------------------*/
-    /* career traits section                  */
-    /*---------------------------------------- */
-    /*----------------------------------------*/
     /*program                           */
     /*---------------------------------------- */
     /*----------------------------------------*/
@@ -1546,23 +1128,10 @@ footer .social-media__list li {
     /*---------------------------------------- */
   }
   .wrapper .skillset {
-    margin-top: 100px;
     grid-row-start: 2;
   }
-  .wrapper .skillset .skillset__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 2px;
-  }
   .wrapper .skillset .skillset__list li {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
     font-size: 18px;
-    letter-spacing: 2px;
-    line-height: 34px;
   }
   .wrapper .about {
     font-family: "PT Sans Narrow", sans-serif;
@@ -1573,21 +1142,11 @@ footer .social-media__list li {
     margin-bottom: 80px;
     width: 100%;
   }
-  .wrapper .about .about__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 46px;
-    padding-bottom: 20px;
-  }
   .wrapper .certification {
     width: 300px;
     margin-top: 50px;
   }
   .wrapper .certification .certification__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 2px;
@@ -1599,39 +1158,6 @@ footer .social-media__list li {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 34px;
-  }
-  .wrapper .career {
-    margin-top: 30px;
-  }
-  .wrapper .career .career__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 2px;
-    margin-top: 20px;
-  }
-  .wrapper .career .career__list {
-    list-style: none;
-  }
-  .wrapper .career .career__list .career__paragraph1 {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 20px;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph1 .bold {
-    font-weight: bold;
-  }
-  .wrapper .career .career__list .career__paragraph {
-    font-family: "PT Sans Narrow", sans-serif;
-    margin-top: 50px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph .bold {
-    font-weight: bold;
   }
   .wrapper .program {
     margin-top: 50px;
@@ -1686,22 +1212,6 @@ footer .social-media__list li {
     line-height: 34px;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 20px;
-  }
-  .wrapper .projects {
-    margin-top: 50px;
-  }
-  .wrapper .projects .projects__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 25px;
-    line-height: 46px;
-  }
-  .wrapper .projects .projects__list li {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 34px;
     margin-left: 20px;
   }
   footer {
@@ -1739,16 +1249,8 @@ footer .social-media__list li {
 }
 @media (max-width: 320px) {
   /*-----------------------------------------*/
-  header {
-    background: var(--secondary-color);
-    width: 100%;
-    height: 700px;
-    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
-            clip-path: polygon(0 0%, 100% 0%, 100% 50%, 0 70%);
-  }
   header .title__section {
     margin-right: 3px;
-    font-family: "PT Sans Narrow", sans-serif;
     font-size: 30px;
   }
   header .title__section .job__heading {
@@ -1787,20 +1289,6 @@ footer .social-media__list li {
     /* tourguide section                      */
     /*---------------------------------------- */
   }
-  .wrapper .skillset {
-    margin-top: 100px;
-    margin-right: 20px;
-    margin-left: 20px;
-    grid-row-start: 2;
-  }
-  .wrapper .skillset .skillset__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 2px;
-  }
   .wrapper .skillset .skillset__list li {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
@@ -1818,13 +1306,6 @@ footer .social-media__list li {
     margin-left: 20px;
     width: 100%;
   }
-  .wrapper .about .about__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 46px;
-    padding-bottom: 20px;
-  }
   .wrapper .about p {
     margin-right: 30px;
   }
@@ -1833,14 +1314,6 @@ footer .social-media__list li {
     margin-top: 50px;
     margin-right: 20px;
     margin-left: 20px;
-  }
-  .wrapper .certification .certification__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 2px;
   }
   .wrapper .certification-list {
     text-decoration: none;
@@ -1855,36 +1328,6 @@ footer .social-media__list li {
     margin-top: 30px;
     margin-right: 20px;
     margin-left: 20px;
-  }
-  .wrapper .career .career__heading {
-    font-family: "PT Sans Narrow", sans-serif;
-    color: var(--secondary-color);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 2px;
-    margin-top: 20px;
-  }
-  .wrapper .career .career__list {
-    list-style: none;
-  }
-  .wrapper .career .career__list .career__paragraph1 {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 20px;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph1 .bold {
-    font-weight: bold;
-  }
-  .wrapper .career .career__list .career__paragraph {
-    font-family: "PT Sans Narrow", sans-serif;
-    margin-top: 50px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 34px;
-  }
-  .wrapper .career .career__list .career__paragraph .bold {
-    font-weight: bold;
   }
   .wrapper .program {
     margin-top: 50px;
@@ -1949,24 +1392,6 @@ footer .social-media__list li {
     line-height: 34px;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 20px;
-  }
-  .wrapper .projects {
-    margin-top: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-  .wrapper .projects .projects__heading {
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-size: 25px;
-    line-height: 46px;
-  }
-  .wrapper .projects .projects__list li {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 34px;
     margin-left: 20px;
   }
   footer {
