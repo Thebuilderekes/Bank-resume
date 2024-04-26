@@ -1108,7 +1108,7 @@ footer .social-media__list li {
     display: grid;
     grid-template-columns: 320px;
     grid-template-rows: 300px;
-    grid-gap: 10px;
+    grid-gap: 50px;
     justify-content: center;
     grid-template-areas: "gridItem2" "gridItem1" "gridItem3" "gridItem4" "gridItem5" "gridItem6" "gridItem7" "gridItem8";
     padding-left: 10px;
